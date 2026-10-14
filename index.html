@@ -111,7 +111,7 @@ const CONFIG = {
 };
 /* ================================ */
 
-const S = { orderId: null, view: null, tab: 'menu', cart: [], dirty: false, busy: false };
+const S = { orderId: null, view: null, tab: 'menu', cart: [], dirty: false, busy: false, storeIdx: 0 };
 const STATUS = { open: '收單中', closed: '已收單', done: '已結單' };
 const PAY = { unpaid: '未付款', claimed: '待確認', paid: '已收款' };
 const METHOD = { linepay: 'LINE Pay', cash: '現金', transfer: '轉帳' };
@@ -166,19 +166,21 @@ function apply(v, syncCart) {
   S.view = v;
   if (syncCart || !S.dirty) {
     const mine = v.entries.find(e => e.userId === v.me.userId);
-    S.cart = mine ? mine.items.map(i => ({ name: i.name, size: i.size, options: i.options.slice(), sugar: i.sugar || '', ice: i.ice || '', qty: i.qty, note: i.note })) : [];
+    S.cart = mine ? mine.items.map(i => ({ storeId: i.storeId || v.stores[0].storeId, name: i.name, size: i.size, options: i.options.slice(), sugar: i.sugar || '', ice: i.ice || '', qty: i.qty, note: i.note })) : [];
     S.dirty = false;
   }
   render();
 }
 
 /* ---------- 價格（前端估算，送出後以後端為準） ---------- */
-function findItem(name) {
-  for (const c of S.view.store.categories) { const i = c.items.find(x => x.name === name); if (i) return i; }
+function curStore() { const st = S.view.stores; return st[S.storeIdx] || st[0]; }
+function storeById(id) { return S.view.stores.find(s => s.storeId === id) || S.view.stores[0]; }
+function findItem(name, storeId) {
+  for (const c of storeById(storeId).categories) { const i = c.items.find(x => x.name === name); if (i) return i; }
   return null;
 }
 function unitPrice(line) {
-  const it = findItem(line.name); if (!it) return 0;
+  const it = findItem(line.name, line.storeId); if (!it) return 0;
   let u = it.sizes && it.sizes.length ? ((it.sizes.find(s => s.name === line.size) || {}).price || 0) : (it.price || 0);
   (line.options || []).forEach(n => { const o = (it.options || []).find(x => x.name === n); if (o) u += Number(o.price) || 0; });
   return u;
@@ -190,13 +192,14 @@ function lineLabel(l) {
   return l.name + (l.size ? ' ' + l.size : '') + (l.options && l.options.length ? '（' + l.options.join('、') + '）' : '') + (si ? ' ' + si : '') + (l.note ? '・' + l.note : '');
 }
 
-function minOrderBanner() {
-  const v = S.view, min = v.store.minOrder || 0;
+function minOrderBanner(sv) {
+  const min = sv.minOrder || 0;
   if (!min) return '';
-  const cur = v.totals.itemsTotal || 0;
+  const cur = sv.subtotal || 0;
+  const name = S.view.stores.length > 1 ? sv.name + ' ' : '';
   return cur >= min
-    ? `<div class="card"><div class="note">🛵 已達外送門檻 ${money(min)}（目前 ${money(cur)}）</div></div>`
-    : `<div class="card"><div class="note" style="background:var(--warn-soft);color:var(--warn)">🛵 外送門檻 ${money(min)}，目前大家點了 ${money(cur)}，還差 <b>${money(min - cur)}</b></div></div>`;
+    ? `<div class="card"><div class="note">🛵 ${esc(name)}已達外送門檻 ${money(min)}（目前 ${money(cur)}）</div></div>`
+    : `<div class="card"><div class="note" style="background:var(--warn-soft);color:var(--warn)">🛵 ${esc(name)}外送門檻 ${money(min)}，目前大家點了 ${money(cur)}，還差 <b>${money(min - cur)}</b></div></div>`;
 }
 function itemPriceText(it) {
   return it.sizes && it.sizes.length ? it.sizes.map(s => s.name + ' ' + money(s.price)).join(' / ') : money(it.price);
@@ -204,7 +207,7 @@ function itemPriceText(it) {
 
 /* ---------- 畫面 ---------- */
 function render() {
-  const v = S.view; const o = v.order; const st = v.store;
+  const v = S.view; const o = v.order; const st = curStore();
   const contact = [
     st.phone && '☎ ' + st.phone.split(/[、,，\/]/).map(p => p.trim()).filter(Boolean)
       .map(p => '<a href="tel:' + esc(p.replace(/[^\d+#]/g, '')) + '">' + esc(p) + '</a>').join('、'),
@@ -217,9 +220,9 @@ function render() {
 
   $('#app').innerHTML = `
     <header><div class="inner">
-      <h1>${esc(st.name)} <span class="pill ${o.status}">${STATUS[o.status]}</span></h1>
+      <h1>${esc(o.title || st.name)} <span class="pill ${o.status}">${STATUS[o.status]}</span></h1>
       <div class="contact">${contact}</div>
-      <div class="sub">由 ${esc(o.creatorName)} 開團、收款・你是 ${esc(v.me.name)}${v.me.isManager ? '（可管理）' : ''}</div>
+      <div class="sub">由 ${esc(o.creatorName)} 開團${o.payeeName && o.payeeName !== o.creatorName ? '、' + esc(o.payeeName) + ' 收款' : '、收款'}・你是 ${esc(v.me.name)}${v.me.isManager ? '（可管理）' : ''}</div>
     </div></header>
     <nav class="tabs">
       <button data-tab="menu" class="${S.tab === 'menu' ? 'on' : ''}">點餐</button>
@@ -236,9 +239,12 @@ function renderMenu() {
   const v = S.view; const open = v.order.status === 'open';
   let h = '';
   if (!open) h += `<div class="card"><div class="note">這團${STATUS[v.order.status]}，不能再修改餐點。</div></div>`;
-  h += minOrderBanner();
+  if (v.stores.length > 1) {
+    h += '<div class="catnav">' + v.stores.map((sv, i) => `<a href="javascript:void(0)" class="${i === S.storeIdx ? 'on' : ''}" data-act="store" data-i="${i}" style="${i === S.storeIdx ? 'background:var(--brand);color:#fff;border-color:var(--brand)' : ''}">${esc(sv.name)}</a>`).join('') + '</div>';
+  }
+  h += minOrderBanner(curStore());
 
-  const last = (v.me.lastItems || []).filter(l => findItem(l.name));
+  const last = (v.me.lastItems || []).filter(l => findItem(l.name, l.storeId));
   if (open && !S.cart.length && last.length) {
     h += `<div class="card"><h2><span>上次在這家點的</span></h2>
       <div class="row"><div class="meta">${esc(last.map(l => lineLabel(l) + ' ×' + l.qty).join('、'))}</div>
@@ -248,12 +254,12 @@ function renderMenu() {
   if (S.cart.length) {
     h += `<div class="card"><h2><span>我的餐點${S.dirty ? '（尚未送出）' : ''}</span><span class="price">${money(cartTotal())}</span></h2>` +
       S.cart.map((l, i) => `<div class="row">
-        <div><div class="name">${esc(lineLabel(l))}</div><div class="meta">${money(unitPrice(l))} × ${l.qty}</div></div>
+        <div><div class="name">${esc(lineLabel(l))}</div><div class="meta">${v.stores.length > 1 ? esc(storeById(l.storeId).name) + '・' : ''}${money(unitPrice(l))} × ${l.qty}</div></div>
         ${open ? `<div class="btns"><button class="btn ghost sm" data-act="edit" data-i="${i}">修改</button><button class="btn ghost sm" data-act="del" data-i="${i}">刪除</button></div>` : ''}
       </div>`).join('') + '</div>';
   }
 
-  const cats = v.store.categories;
+  const cats = curStore().categories;
   if (!cats.length) return h + '<div class="card"><div class="empty">這家店還沒有菜單資料。</div></div>';
   if (cats.length > 1) h += '<div class="catnav">' + cats.map((c, i) => `<a href="#cat${i}">${esc(c.name)}</a>`).join('') + '</div>';
   h += cats.map((c, ci) => `<div class="card" id="cat${ci}"><h2>${esc(c.name)}</h2>` +
@@ -281,9 +287,10 @@ function renderBoard() {
       <div><b style="color:${t.outstanding > 0 ? 'var(--bad)' : 'inherit'}">${money(t.outstanding)}</b><span>還差</span></div>
     </div>
     ${(t.deliveryFee || t.discount) ? `<div class="row meta">餐點 ${money(t.itemsTotal)}　運費 ${money(t.deliveryFee)}${t.discount ? '　折扣 -' + money(t.discount) : ''}（每人平均分攤）</div>` : ''}
-    <div class="note">付款給 ${esc(o.creatorName)}${v.payInfo ? '：' + esc(v.payInfo) : ''}<br>付完請按自己那欄的「我付了」，${esc(o.creatorName)} 確認後會變成已收款。</div>
-    ${v.payQr ? `<div style="padding:12px 14px;text-align:center"><div class="meta" style="margin-bottom:6px">${esc(o.creatorName)} 的收款碼（長按可儲存）</div><img src="${esc(v.payQr)}" alt="收款碼" style="max-width:240px;width:100%;border-radius:10px;border:1px solid var(--line)"></div>` : ''}
-  </div>` + minOrderBanner();
+    ${t.treatTotal ? `<div class="row meta">🎁 請客 ${money(t.treatTotal)}${t.treatAll ? '（全團）' : '：' + esc(t.treatedNames.join('、'))}</div>` : ''}
+    <div class="note">付款給 ${esc(o.payeeName)}${v.payInfo ? '：' + esc(v.payInfo) : ''}<br>付完請按自己那欄的「我付了」，${esc(o.payeeName)} 確認後會變成已收款。</div>
+    ${v.payQr ? `<div style="padding:12px 14px;text-align:center"><div class="meta" style="margin-bottom:6px">${esc(o.payeeName)} 的收款碼（長按可儲存）</div><img src="${esc(v.payQr)}" alt="收款碼" style="max-width:240px;width:100%;border-radius:10px;border:1px solid var(--line)"></div>` : ''}
+  </div>` + v.stores.map(minOrderBanner).join('');
 
   if (me.isManager) {
     h += `<div class="card"><h2>管理</h2><div class="manage">
@@ -302,13 +309,14 @@ function renderBoard() {
       <div class="row"><div class="meta">${esc(v.notOrdered.join('、'))}</div></div></div>`;
   }
 
-  if (v.merged && v.merged.length) {
-    const qty = v.merged.reduce((n, x) => n + x.qty, 0);
-    h += `<div class="card"><h2><span>下單清單</span><span>共 ${qty} 份</span></h2>` +
-      (me.isManager && v.storeOrderUrl ? `<div class="row"><div class="meta">打開店家 LINE 並填好訂單，按送出即可</div><a class="btn sm" style="text-decoration:none" href="${esc(v.storeOrderUrl)}">📤 傳給店家</a></div>` : '') +
-      v.merged.map(x => `<div class="row"><div><div class="name">${esc(x.label)}</div>${x.notes.length ? `<div class="meta">${esc(x.notes.join('；'))}</div>` : ''}</div><div class="price">×${x.qty}</div></div>`).join('') +
+  v.stores.forEach(sv => {
+    if (!sv.merged || !sv.merged.length) return;
+    const qty = sv.merged.reduce((n, x) => n + x.qty, 0);
+    h += `<div class="card"><h2><span>下單清單${v.stores.length > 1 ? '・' + esc(sv.name) : ''}</span><span>共 ${qty} 份</span></h2>` +
+      (me.isManager && sv.orderUrl ? `<div class="row"><div class="meta">打開店家 LINE 並填好訂單，按送出即可</div><a class="btn sm" style="text-decoration:none" href="${esc(sv.orderUrl)}">📤 傳給店家</a></div>` : '') +
+      sv.merged.map(x => `<div class="row"><div><div class="name">${esc(x.label)}</div>${x.notes.length ? `<div class="meta">${esc(x.notes.join('；'))}</div>` : ''}</div><div class="price">×${x.qty}</div></div>`).join('') +
       '</div>';
-  }
+  });
 
   const entries = v.entries.slice().sort((a, b) => (a.userId === me.userId ? -1 : b.userId === me.userId ? 1 : 0));
   h += `<div class="card"><h2><span>每人明細</span><span>${t.people} 人</span></h2>`;
@@ -316,6 +324,12 @@ function renderBoard() {
   h += entries.map(e => {
     const mine = e.userId === me.userId;
     const btns = [];
+    if (e.treated) {
+      return `<div class="entry ${mine ? 'mine' : ''}">
+      <div class="top"><div><b>${esc(e.displayName)}${mine ? '（我）' : ''}</b>　<span class="price">$0</span><span class="meta" style="font-size:12px;color:var(--muted)">（原 ${money(e.treatAmount)}）</span></div>
+      <span class="badge paid">🎁 請客</span></div>
+      <ul>${e.items.map(i => `<li>${esc(lineLabel(i))} ×${i.qty}　${money(i.total)}</li>`).join('')}</ul></div>`;
+    }
     if (mine && e.payStatus === 'unpaid') {
       btns.push(`<button class="btn sm" data-act="pay" data-u="${esc(e.userId)}" data-s="claimed" data-m="linepay">我付了 LINE Pay</button>`);
       btns.push(`<button class="btn ghost sm" data-act="pay" data-u="${esc(e.userId)}" data-s="claimed" data-m="cash">我付了 現金</button>`);
@@ -336,7 +350,7 @@ function renderBoard() {
 }
 
 /* ---------- 選品項 ---------- */
-function openPicker(item, editIndex) {
+function openPicker(item, editIndex, storeId) {
   const base = editIndex != null ? S.cart[editIndex] : null;
   const st = {
     size: base ? base.size : (item.sizes && item.sizes.length === 1 ? item.sizes[0].name : ''),
@@ -349,7 +363,7 @@ function openPicker(item, editIndex) {
   const bg = document.createElement('div');
   bg.className = 'sheet-bg';
   const draw = () => {
-    const line = { name: item.name, size: st.size, options: st.options, qty: st.qty };
+    const line = { storeId: storeId, name: item.name, size: st.size, options: st.options, qty: st.qty };
     bg.innerHTML = `<div class="sheet">
       <h3>${esc(item.name)}</h3>${item.note ? `<div class="meta" style="color:var(--muted);font-size:14px">${esc(item.note)}</div>` : ''}
       ${item.sizes && item.sizes.length ? `<div class="group"><div>尺寸（必選）</div><div class="chips">${item.sizes.map(s =>
@@ -374,7 +388,7 @@ function openPicker(item, editIndex) {
     bg.querySelector('[data-x=cancel]').onclick = () => bg.remove();
     bg.querySelector('[data-x=ok]').onclick = () => {
       if (item.sizes && item.sizes.length && !st.size) { toast('請先選尺寸'); return; }
-      const l = { name: item.name, size: st.size, options: st.options, sugar: st.sugar, ice: st.ice, qty: st.qty, note: $('#pnote', bg).value.trim() };
+      const l = { storeId: storeId, name: item.name, size: st.size, options: st.options, sugar: st.sugar, ice: st.ice, qty: st.qty, note: $('#pnote', bg).value.trim() };
       if (editIndex != null) S.cart[editIndex] = l; else S.cart.push(l);
       S.dirty = true; bg.remove(); render();
       toast(editIndex != null ? '已更新，記得按「送出餐點」' : '已加入，記得按「送出餐點」');
@@ -389,11 +403,12 @@ function openPicker(item, editIndex) {
 function bind() {
   document.querySelectorAll('[data-act]').forEach(el => el.onclick = async () => {
     const a = el.dataset.act;
-    if (a === 'pick') return openPicker(S.view.store.categories[el.dataset.c].items[el.dataset.i]);
-    if (a === 'edit') { const l = S.cart[el.dataset.i]; const it = findItem(l.name); if (it) openPicker(it, Number(el.dataset.i)); return; }
+    if (a === 'store') { S.storeIdx = Number(el.dataset.i); render(); window.scrollTo(0, 0); return; }
+    if (a === 'pick') return openPicker(curStore().categories[el.dataset.c].items[el.dataset.i], null, curStore().storeId);
+    if (a === 'edit') { const l = S.cart[el.dataset.i]; const it = findItem(l.name, l.storeId); if (it) openPicker(it, Number(el.dataset.i), l.storeId); return; }
     if (a === 'repeat') {
-      S.cart = (S.view.me.lastItems || []).filter(l => findItem(l.name))
-        .map(l => ({ name: l.name, size: l.size, options: (l.options || []).slice(), sugar: l.sugar || '', ice: l.ice || '', qty: l.qty, note: l.note }));
+      S.cart = (S.view.me.lastItems || []).filter(l => findItem(l.name, l.storeId))
+        .map(l => ({ storeId: l.storeId, name: l.name, size: l.size, options: (l.options || []).slice(), sugar: l.sugar || '', ice: l.ice || '', qty: l.qty, note: l.note }));
       S.dirty = true; render(); toast('已帶入上次的餐點，確認後按「送出餐點」'); return;
     }
     if (a === 'del') { S.cart.splice(Number(el.dataset.i), 1); S.dirty = true; render(); return; }

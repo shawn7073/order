@@ -43,7 +43,7 @@ function cfg(key, def) {
 
 const SHEETS = {
   stores: ['storeId', 'name', 'phone', 'address', 'hours', 'contact', 'note', 'menuJson', 'createdAt', 'updatedAt', 'line', 'minOrder'],
-  orders: ['orderId', 'groupId', 'storeId', 'storeName', 'status', 'creatorId', 'creatorName', 'deliveryFee', 'discount', 'createdAt', 'closedAt'],
+  orders: ['orderId', 'groupId', 'storeId', 'storeName', 'status', 'creatorId', 'creatorName', 'deliveryFee', 'discount', 'createdAt', 'closedAt', 'extraStores', 'treat', 'payeeId', 'payeeName'],
   entries: ['entryId', 'orderId', 'userId', 'displayName', 'itemsJson', 'subtotal', 'payStatus', 'payMethod', 'updatedAt'],
   drafts: ['userId', 'draftJson', 'updatedAt'],
   wishes: ['createdAt', 'userId', 'name', 'text', 'status'],
@@ -233,6 +233,10 @@ const HELP_GROUP = [
   '・誰沒付：查看付款狀況',
   '・清單：合併後的下單清單（收單時也會自動列出）',
   '・催款：標記還沒付款的人提醒付款（開團的人或管理員）',
+  '・加開 店名：同一團再加一家（例如飲料加雞排）',
+  '・到貨 1樓櫃台：@ 所有點餐的人來拿',
+  '・這團我請／請客 @某人／取消請客',
+  '・收款人 @某人：改由別人收款',
   '・運費 60／折扣 30：設定運費或折扣（開團的人或管理員）',
   '・收單：停止點餐',
   '・結單：全部收齊後結束這團',
@@ -253,6 +257,7 @@ const HELP_ADMIN = [
   '・刪除店家 店名',
   '・門檻 店名 300：設定店家外送門檻',
   '・設定收款碼：傳你的收款 QR code，開團時給大家掃',
+  '・月報 或 月報 2026-09：產生月報（可下載 Excel）',
   '・邀請管理員：產生邀請碼給另一個人',
   '・許願 想要的功能：記下來，下次更新一起做'
 ].join('\n');
@@ -298,7 +303,45 @@ function activeOrder(groupId) {
   return list.length ? list[list.length - 1] : null;
 }
 
-function canManage(order, uid) { return !!order && (order.creatorId === uid || isAdmin(uid)); }
+function canManage(order, uid) { return !!order && (order.creatorId === uid || payeeId(order) === uid || isAdmin(uid)); }
+function payeeId(order) { return order.payeeId || order.creatorId; }
+function payeeName(order) { return order.payeeName || order.creatorName; }
+function orderStoreIds(order) {
+  let extra = [];
+  try { extra = JSON.parse(order.extraStores || '[]'); } catch (e) { extra = []; }
+  return [order.storeId].concat(extra.filter(id => id && id !== order.storeId));
+}
+function orderStores(order) {
+  const all = readAll('stores');
+  return orderStoreIds(order).map(id => all.find(s => s.storeId === id)).filter(Boolean);
+}
+function orderTitle(order) {
+  const names = orderStores(order).map(s => s.name);
+  return names.length ? names.join('＋') : order.storeName;
+}
+function treatOf(order) {
+  const v = String(order.treat || '');
+  if (!v) return null;
+  if (v === 'all') return 'all';
+  try { return JSON.parse(v); } catch (e) { return null; }
+}
+
+/** 解析訊息裡 @ 到的人（LINE 不一定給 userId，就用名字對照成員名單） */
+function resolveMentions(ev) {
+  const m = ev.message && ev.message.mention;
+  if (!m || !m.mentionees) return [];
+  const gid = groupKey(ev.source);
+  const members = readAll('members').filter(r => r.groupId === gid);
+  return m.mentionees.filter(x => x.type !== 'all').map(x => {
+    const raw = String(ev.message.text || '').substr(x.index, x.length).replace(/^@/, '').trim();
+    if (x.userId) {
+      const mb = members.find(r => r.userId === x.userId);
+      return { userId: x.userId, name: mb ? mb.name : raw };
+    }
+    const mb = members.find(r => r.name === raw);
+    return mb ? { userId: mb.userId, name: mb.name } : null;
+  }).filter(Boolean);
+}
 
 function handleGroupText(ev, t) {
   const src = ev.source;
@@ -377,13 +420,13 @@ function handleGroupText(ev, t) {
 
   const order = activeOrder(gid);
   const needOrder = ['點餐', '連結', '誰沒付', '誰沒點', '進度', '清單', '下單清單', '催款', '收單', '結單', '確定結單', '重新開放'];
-  if (!order && (needOrder.indexOf(t) >= 0 || /^(運費|折扣)/.test(t))) {
+  if (!order && (needOrder.indexOf(t) >= 0 || /^(運費|折扣|加開|請客|這團我請|我請客|取消請客|收款人|到貨|到了)/.test(t))) {
     return reply(tok, [txt('目前沒有進行中的團，輸入「開團」開始。')]);
   }
   if (!order) return;
 
   if (t === '點餐' || t === '連結') {
-    return reply(tok, [txt('「' + order.storeName + '」' + STATUS_LABEL[order.status] + '\n' + liffUrl(order.orderId))]);
+    return reply(tok, [txt('「' + orderTitle(order) + '」' + STATUS_LABEL[order.status] + '\n' + liffUrl(order.orderId))]);
   }
 
   if (t === '誰沒付' || t === '進度') return reply(tok, [txt(orderSummaryText(order))]);
@@ -397,8 +440,70 @@ function handleGroupText(ev, t) {
       '\n\n點餐：' + liffUrl(order.orderId) + '\n（名單來自在群組說過話或點過餐的人，可能不完整）')]);
   }
 
+  // ----- 加開第二家 -----
+  m = t.match(/^加開\s*(.+)$/);
+  if (m) {
+    if (!canManage(order, uid)) return reply(tok, [txt('只有開團的人或管理員可以加開店家。')]);
+    if (order.status !== 'open') return reply(tok, [txt('已經收單了，請先「重新開放」再加開。')]);
+    const st = findStore(m[1]);
+    if (!st) return reply(tok, [txt('找不到店家「' + m[1] + '」，輸入「店家」看清單。')]);
+    const ids = orderStoreIds(order);
+    if (ids.indexOf(st.storeId) >= 0) return reply(tok, [txt('「' + st.name + '」已經在這團裡了。')]);
+    if (ids.length >= 3) return reply(tok, [txt('一團最多三家店喔。')]);
+    withLock(() => {
+      const o = readAll('orders').find(x => x.orderId === order.orderId);
+      o.extraStores = JSON.stringify(ids.slice(1).concat(st.storeId));
+      updateRow('orders', o);
+    });
+    const fresh = readAll('orders').find(x => x.orderId === order.orderId);
+    return reply(tok, [txt('➕ 已加開「' + st.name + '」，這團現在可以點：' + orderTitle(fresh) + '\n點餐頁上方可以切換店家：\n' + liffUrl(order.orderId))]);
+  }
+
+  // ----- 到貨通知 -----
+  m = t.match(/^(到貨|到了)\s*(.*)$/);
+  if (m) {
+    if (!canManage(order, uid)) return reply(tok, [txt('只有開團的人或管理員可以發到貨通知。')]);
+    const es = orderEntries(order.orderId);
+    if (!es.length) return reply(tok, [txt('這團還沒有人點餐。')]);
+    const subs = {};
+    const tags = es.map((e, i) => { subs['u' + i] = { type: 'mention', mentionee: { type: 'user', userId: e.userId } }; return '{u' + i + '}'; });
+    const where = m[2].trim();
+    return reply(tok, [{ type: 'textV2', substitution: subs,
+      text: '🛵 「' + orderTitle(order) + '」到了！' + (where ? '請到「' + where + '」領取' : '請來領取') + '\n' + tags.join(' ') }]);
+  }
+
+  // ----- 請客 -----
+  if (t === '這團我請' || t === '我請客' || /^請客/.test(t) || t === '取消請客') {
+    if (!canManage(order, uid)) return reply(tok, [txt('只有開團的人或管理員可以設定請客。')]);
+    let treat = '';
+    let msg = '';
+    if (t === '取消請客') { msg = '已取消請客，大家照常付款。'; }
+    else if (t === '這團我請' || t === '我請客' || t === '請客') { treat = 'all'; msg = '🎁 ' + getDisplayName(src) + ' 請客！這團大家都不用付錢 🙌'; }
+    else {
+      const who = resolveMentions(ev);
+      if (!who.length) return reply(tok, [txt('請用「請客 @某人」標記要請的人；全部都請就輸入「這團我請」。')]);
+      treat = JSON.stringify(who.map(w => w.userId));
+      msg = '🎁 這團請 ' + who.map(w => w.name).join('、') + '，他們不用付錢！';
+    }
+    withLock(() => { const o = readAll('orders').find(x => x.orderId === order.orderId); o.treat = treat; updateRow('orders', o); });
+    const fresh = readAll('orders').find(x => x.orderId === order.orderId);
+    return reply(tok, [txt(msg + '\n\n' + orderSummaryText(fresh))]);
+  }
+
+  // ----- 指定收款人 -----
+  m = t.match(/^收款人\s*(.*)$/);
+  if (m) {
+    if (!canManage(order, uid)) return reply(tok, [txt('只有開團的人或管理員可以指定收款人。')]);
+    let who = null;
+    if (m[1].trim() === '我') who = { userId: uid, name: getDisplayName(src) };
+    else { const ms = resolveMentions(ev); if (ms.length) who = ms[0]; }
+    if (!who) return reply(tok, [txt('請用「收款人 @某人」指定，或「收款人 我」。')]);
+    withLock(() => { const o = readAll('orders').find(x => x.orderId === order.orderId); o.payeeId = who.userId; o.payeeName = who.name; updateRow('orders', o); });
+    return reply(tok, [txt('💰 這團改由 ' + who.name + ' 收款，大家請付給 ' + who.name + '。\n' + who.name + ' 可以在點餐頁確認收款。')]);
+  }
+
   if (t === '催款') {
-    if (!canManage(order, uid)) return reply(tok, [txt('只有開團的人（' + order.creatorName + '）或管理員可以催款。')]);
+    if (!canManage(order, uid)) return reply(tok, [txt('只有開團的人、收款人或管理員可以催款。')]);
     return reply(tok, [remindMessage(order)]);
   }
 
@@ -415,11 +520,11 @@ function handleGroupText(ev, t) {
   }
 
   if (t === '收單' || t === '結單' || t === '確定結單' || t === '重新開放') {
-    if (!canManage(order, uid)) return reply(tok, [txt('只有開團的人（' + order.creatorName + '）或管理員可以' + t + '。')]);
+    if (!canManage(order, uid)) return reply(tok, [txt('只有開團的人（' + order.creatorName + '）、收款人或管理員可以' + t + '。')]);
     if (t === '結單') {
       const es = orderEntries(order.orderId);
       computeTotals(order, es);
-      const owe = es.filter(e => e.payStatus !== 'paid');
+      const owe = es.filter(e => e.payStatus !== 'paid' && !e.treated);
       if (owe.length) {
         return reply(tok, [txt('⚠️ 還有人沒付清：\n' + owe.map(e => '・' + e.displayName + ' ' + money(e.amount) + (e.payStatus === 'claimed' ? '（已回報，待確認）' : '')).join('\n') +
           '\n\n確定要結單請輸入「確定結單」。沒付清的款項會出現在每週一 10:00 的欠款公告。')]);
@@ -437,9 +542,8 @@ function handleGroupText(ev, t) {
     const msgs = [txt(head + '\n\n' + orderSummaryText(fresh))];
     if (status === 'closed') {
       msgs.push(txt(mergedListText(fresh)));
-      const st = readAll('stores').find(x => x.storeId === fresh.storeId);
-      const url = st ? storeOaUrl(st, storeOrderText(fresh)) : '';
-      if (url) msgs.push(txt('📤 一鍵傳給店家（會打開店家的 LINE 聊天室並填好訂單，按送出就完成）：\n' + url));
+      const links = orderStores(fresh).map(st => { const u = storeOaUrl(st, storeOrderText(fresh, st.storeId)); return u ? '・' + st.name + '：\n' + u : ''; }).filter(Boolean);
+      if (links.length) msgs.push(txt('📤 一鍵傳給店家（會打開店家的 LINE 聊天室並填好訂單，按送出就完成）：\n' + links.join('\n')));
     }
     return reply(tok, msgs);
   }
@@ -502,6 +606,13 @@ function handleDmText(ev, t) {
     if (!st) return reply(tok, [txt('找不到店家「' + w[2] + '」。')]);
     withLock(() => { const r = readAll('stores').find(x => x.storeId === st.storeId); r.minOrder = Number(w[3]); r.updatedAt = now(); updateRow('stores', r); });
     return reply(tok, [txt('已設定「' + st.name + '」外送門檻 ' + money(w[3]) + '。')]);
+  }
+
+  w = t.match(/^月報\s*(\d{4}-\d{1,2})?$/);
+  if (w) {
+    const ym = w[1] ? w[1].replace(/-(\d)$/, '-0$1') : Utilities.formatDate(new Date(), 'Asia/Taipei', 'yyyy-MM');
+    const rep = monthlyReport(ym);
+    return reply(tok, [txt(rep ? rep.text : ym + ' 沒有任何訂單。')], uid);
   }
 
   if (t === '邀請管理員') {
@@ -853,8 +964,8 @@ function lineAddUrl(v) {
 }
 
 /** 給店家的訂單文字（備註不帶名字） */
-function storeOrderText(order) {
-  const list = mergedItems(orderEntries(order.orderId));
+function storeOrderText(order, storeId) {
+  const list = mergedItems(orderEntries(order.orderId), storeId || order.storeId, order.storeId);
   const total = list.reduce((n, x) => n + x.qty, 0);
   return '您好，我想訂購（共 ' + total + ' 份）：\n' +
     list.map(x => x.label + ' ×' + x.qty + (x.notes.length ? '（' + x.notes.map(n => n.replace(/^[^：]*：/, '')).join('、') + '）' : '')).join('\n') +
@@ -923,20 +1034,28 @@ function computeTotals(order, entries) {
   const extra = num(order.deliveryFee) - num(order.discount);
   const base = n ? (extra >= 0 ? Math.floor(extra / n) : Math.ceil(extra / n)) : 0;
   let rem = n ? extra - base * n : 0;
-  let itemsTotal = 0, paid = 0, claimed = 0;
-  const unpaidNames = [];
+  const treat = treatOf(order);
+  let itemsTotal = 0, paid = 0, claimed = 0, treatTotal = 0;
+  const unpaidNames = [], treatedNames = [];
   entries.forEach(en => {
     let share = base;
     if (rem > 0) { share++; rem--; } else if (rem < 0) { share--; rem++; }
     en.share = share;
     en.amount = num(en.subtotal) + share;
     itemsTotal += num(en.subtotal);
+    en.treated = treat === 'all' || (Array.isArray(treat) && treat.indexOf(en.userId) >= 0);
+    if (en.treated) {
+      en.treatAmount = en.amount; en.amount = 0;
+      treatTotal += en.treatAmount; treatedNames.push(en.displayName);
+      return;
+    }
     if (en.payStatus === 'paid') paid += en.amount;
     else if (en.payStatus === 'claimed') claimed += en.amount;
     else unpaidNames.push(en.displayName);
   });
-  const grand = itemsTotal + (n ? extra : 0);
-  return { people: n, itemsTotal: itemsTotal, deliveryFee: num(order.deliveryFee), discount: num(order.discount), grand: grand, paid: paid, claimed: claimed, outstanding: grand - paid, unpaidNames: unpaidNames };
+  const grand = itemsTotal + (n ? extra : 0) - treatTotal;
+  return { people: n, itemsTotal: itemsTotal, deliveryFee: num(order.deliveryFee), discount: num(order.discount), grand: grand, paid: paid, claimed: claimed,
+    outstanding: grand - paid, unpaidNames: unpaidNames, treatTotal: treatTotal, treatedNames: treatedNames, treatAll: treat === 'all' };
 }
 
 function orderEntries(orderId) {
@@ -948,9 +1067,10 @@ function orderEntries(orderId) {
 }
 
 /** 把所有人的餐點合併成下單清單（同品項、同尺寸、同加料合併數量，備註標上是誰的） */
-function mergedItems(entries) {
+function mergedItems(entries, onlyStoreId, mainStoreId) {
   const map = {}, keys = [];
   entries.forEach(e => (e.items || []).forEach(i => {
+    if (onlyStoreId && (i.storeId || mainStoreId) !== onlyStoreId) return;
     const opts = (i.options || []).join('、');
     const si = [i.sugar, i.ice].filter(Boolean).join(' ');
     const key = i.name + '|' + (i.size || '') + '|' + opts + '|' + si;
@@ -965,18 +1085,23 @@ function mergedItems(entries) {
 }
 
 function mergedListText(order) {
-  const list = mergedItems(orderEntries(order.orderId));
-  if (!list.length) return '還沒有人點餐。';
-  const total = list.reduce((n, x) => n + x.qty, 0);
-  return '📋 下單清單：' + order.storeName + '（共 ' + total + ' 份）\n' +
-    list.map(x => '・' + x.label + ' ×' + x.qty + (x.notes.length ? '\n   備註：' + x.notes.join('；') : '')).join('\n');
+  const entries = orderEntries(order.orderId);
+  const stores = orderStores(order);
+  const blocks = (stores.length ? stores : [{ storeId: order.storeId, name: order.storeName }]).map(st => {
+    const list = mergedItems(entries, st.storeId, order.storeId);
+    if (!list.length) return '';
+    const total = list.reduce((n, x) => n + x.qty, 0);
+    return '📋 下單清單：' + st.name + '（共 ' + total + ' 份）\n' +
+      list.map(x => '・' + x.label + ' ×' + x.qty + (x.notes.length ? '\n   備註：' + x.notes.join('；') : '')).join('\n');
+  }).filter(Boolean);
+  return blocks.length ? blocks.join('\n\n') : '還沒有人點餐。';
 }
 
 /** 用 LINE 的「提及」功能標記還沒付款的人 */
 function remindMessage(order) {
   const entries = orderEntries(order.orderId);
   computeTotals(order, entries);
-  const unpaid = entries.filter(e => e.payStatus === 'unpaid');
+  const unpaid = entries.filter(e => e.payStatus === 'unpaid' && !e.treated);
   if (!unpaid.length) return txt('🎉 大家都付了或已回報，不用催！');
   const subs = {};
   const lines = unpaid.map((e, i) => {
@@ -985,7 +1110,7 @@ function remindMessage(order) {
   });
   return {
     type: 'textV2',
-    text: '💰 「' + order.storeName + '」還沒付款，請付給 ' + order.creatorName + '：\n' + lines.join('\n') +
+    text: '💰 「' + orderTitle(order) + '」還沒付款，請付給 ' + payeeName(order) + '：\n' + lines.join('\n') +
       '\n\n付完請到點餐頁按「我付了」：\n' + liffUrl(order.orderId),
     substitution: subs
   };
@@ -999,7 +1124,8 @@ function lastOrderItems(userId, storeId, excludeOrderId) {
   if (!mine.length) return [];
   try {
     return JSON.parse(mine[mine.length - 1].itemsJson || '[]')
-      .map(i => ({ name: i.name, size: i.size || '', options: i.options || [], sugar: i.sugar || '', ice: i.ice || '', qty: i.qty, note: i.note || '' }));
+      .filter(i => !i.storeId || i.storeId === storeId)
+      .map(i => ({ storeId: storeId, name: i.name, size: i.size || '', options: i.options || [], sugar: i.sugar || '', ice: i.ice || '', qty: i.qty, note: i.note || '' }));
   } catch (e) { return []; }
 }
 
@@ -1132,7 +1258,7 @@ function debtText(groupId) {
       if (!people[e.userId]) { people[e.userId] = { name: e.displayName, total: 0, list: [] }; order.push(e.userId); }
       const p = people[e.userId];
       p.total += e.amount;
-      p.list.push(o.storeName + '（' + shortDate(o.createdAt) + '，付給 ' + o.creatorName + '）' + money(e.amount) +
+      p.list.push(o.storeName + '（' + shortDate(o.createdAt) + '，付給 ' + payeeName(o) + '）' + money(e.amount) +
         (e.payStatus === 'claimed' ? ' 已回報待確認' : ''));
     });
   });
@@ -1155,15 +1281,90 @@ function weeklyDebtReport() {
 
 /** 在編輯器執行一次：建立「每週一 10:00」的排程 */
 function setupWeeklyTrigger() {
-  ScriptApp.getProjectTriggers().filter(t => t.getHandlerFunction() === 'weeklyDebtReport').forEach(t => ScriptApp.deleteTrigger(t));
+  ScriptApp.getProjectTriggers().filter(t => ['weeklyDebtReport', 'monthlyJob'].indexOf(t.getHandlerFunction()) >= 0).forEach(t => ScriptApp.deleteTrigger(t));
   ScriptApp.newTrigger('weeklyDebtReport').timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(10).nearMinute(0).inTimezone('Asia/Taipei').create();
-  Logger.log('已設定每週一 10:00 欠款公告');
+  ScriptApp.newTrigger('monthlyJob').timeBased().onMonthDay(1).atHour(9).nearMinute(0).inTimezone('Asia/Taipei').create();
+  Logger.log('已設定每週一 10:00 欠款公告、每月 1 日 09:00 月報與菜單過期提醒');
+}
+
+/* ============================== 月報與菜單過期提醒 ============================== */
+
+/** 產生某月（yyyy-MM）的月報試算表，回傳 { url, xlsx, text }；沒有訂單回傳 null */
+function monthlyReport(ym) {
+  const orders = readAll('orders').filter(o => Utilities.formatDate(new Date(o.createdAt), 'Asia/Taipei', 'yyyy-MM') === ym);
+  if (!orders.length) return null;
+  const allEntries = readAll('entries');
+  const detail = [['日期', '店家', '開團', '收款人', '姓名', '餐點', '餐點小計', '運費分攤', '應付', '付款狀態', '付款方式']];
+  const people = {};
+  orders.forEach(o => {
+    const es = allEntries.filter(e => e.orderId === o.orderId).map(e => {
+      let items = [];
+      try { items = JSON.parse(e.itemsJson || '[]'); } catch (x) { items = []; }
+      return { userId: e.userId, displayName: e.displayName, items: items, subtotal: num(e.subtotal), payStatus: e.payStatus || 'unpaid', payMethod: e.payMethod || '' };
+    });
+    computeTotals(o, es);
+    es.forEach(e => {
+      const cups = e.items.reduce((n, i) => n + num(i.qty), 0);
+      const status = e.treated ? '請客' : (PAY_LABEL[e.payStatus] || e.payStatus);
+      detail.push([shortDate(o.createdAt), o.storeName, o.creatorName, payeeName(o), e.displayName,
+        e.items.map(i => i.name + (i.size ? ' ' + i.size : '') + ' ×' + i.qty).join('、'), e.subtotal, e.share, e.amount, status, METHOD_LABEL[e.payMethod] || '']);
+      const p = people[e.userId] || (people[e.userId] = { name: e.displayName, count: 0, cups: 0, spend: 0, owe: 0 });
+      p.count++; p.cups += cups; p.spend += e.amount;
+      if (!e.treated && e.payStatus !== 'paid') p.owe += e.amount;
+    });
+  });
+  const summary = [['姓名', '參加次數', '份數', '應付合計', '尚未付清']].concat(
+    Object.keys(people).map(k => people[k]).sort((a, b) => b.cups - a.cups).map(p => [p.name, p.count, p.cups, p.spend, p.owe]));
+  const ss = SpreadsheetApp.create('揪團點餐月報 ' + ym);
+  const sh1 = ss.getSheets()[0]; sh1.setName('每人彙總');
+  sh1.getRange(1, 1, summary.length, summary[0].length).setValues(summary);
+  sh1.getRange(1, 1, 1, summary[0].length).setFontWeight('bold'); sh1.setFrozenRows(1);
+  const sh2 = ss.insertSheet('明細');
+  sh2.getRange(1, 1, detail.length, detail[0].length).setValues(detail);
+  sh2.getRange(1, 1, 1, detail[0].length).setFontWeight('bold'); sh2.setFrozenRows(1);
+  DriveApp.getFileById(ss.getId()).setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+  const url = ss.getUrl();
+  const xlsx = 'https://docs.google.com/spreadsheets/d/' + ss.getId() + '/export?format=xlsx';
+  const top = summary.slice(1, 4).map((r, i) => (['🥇', '🥈', '🥉'][i]) + ' ' + r[0] + ' ' + r[2] + ' 份').join('\n');
+  const owe = summary.slice(1).filter(r => r[4] > 0).map(r => r[0] + ' ' + money(r[4]));
+  const text = '📊 ' + ym + ' 月報\n共 ' + orders.length + ' 團、' + (detail.length - 1) + ' 筆點餐\n\n' + (top ? '本月飲料王：\n' + top + '\n\n' : '') +
+    (owe.length ? '尚未付清：' + owe.join('、') + '\n\n' : '✅ 全部付清\n\n') +
+    '線上查看：' + url + '\n下載 Excel：' + xlsx + '\n（知道連結的人都能看，請勿外流）';
+  return { url: url, xlsx: xlsx, text: text };
+}
+
+/** 超過 90 天沒更新的店家 */
+function staleStoresText() {
+  const limit = Date.now() - 90 * 86400000;
+  const stale = readAll('stores').filter(s => { const t = new Date(s.updatedAt || s.createdAt).getTime(); return !t || t < limit; });
+  if (!stale.length) return '';
+  return '🗓 這些店家的菜單超過 3 個月沒更新，價格可能變了：\n' + stale.map(s => '・' + s.name + '（' + (s.updatedAt ? shortDate(s.updatedAt) : '未知') + '）').join('\n') +
+    '\n\n更新方式：私訊我新的菜單照片，或直接打字修改。';
+}
+
+/** 每月 1 日：私訊管理員上個月的月報和菜單過期提醒 */
+function monthlyJob() {
+  const d = new Date(); d.setDate(0); // 上個月最後一天
+  const ym = Utilities.formatDate(d, 'Asia/Taipei', 'yyyy-MM');
+  const rep = monthlyReport(ym);
+  const stale = staleStoresText();
+  const msgs = [];
+  if (rep) msgs.push(txt(rep.text));
+  if (stale) msgs.push(txt(stale));
+  if (!msgs.length) return;
+  admins().forEach(a => lineApi('message/push', { to: a, messages: msgs }));
+}
+
+function storeSubtotal(entries, storeId, mainStoreId) {
+  let sum = 0;
+  entries.forEach(e => (e.items || []).forEach(i => { if ((i.storeId || mainStoreId) === storeId) sum += num(i.total); }));
+  return sum;
 }
 
 function orderSummaryText(order) {
   const entries = orderEntries(order.orderId);
   const t = computeTotals(order, entries);
-  const lines = ['🍱 ' + order.storeName + '（' + STATUS_LABEL[order.status] + '）'];
+  const lines = ['🍱 ' + orderTitle(order) + '（' + STATUS_LABEL[order.status] + '）'];
   if (!entries.length) {
     lines.push('還沒有人點餐。');
   } else {
@@ -1171,14 +1372,19 @@ function orderSummaryText(order) {
     if (t.deliveryFee || t.discount) fee = '（含運費 ' + money(t.deliveryFee) + (t.discount ? '、折扣 -' + money(t.discount) : '') + '）';
     lines.push('共 ' + t.people + ' 人，總額 ' + money(t.grand) + fee);
     lines.push('已收 ' + money(t.paid) + '，還差 ' + money(t.outstanding));
-    const st = readAll('stores').find(x => x.storeId === order.storeId);
-    const min = st ? num(st.minOrder) : 0;
-    if (min && t.itemsTotal < min) lines.push('🛵 外送門檻 ' + money(min) + '，餐點還差 ' + money(min - t.itemsTotal));
-    const group = (st) => entries.filter(e => e.payStatus === st)
+    if (t.treatTotal) lines.push('🎁 請客 ' + money(t.treatTotal) + (t.treatAll ? '（全團）' : '：' + t.treatedNames.join('、')));
+    if (payeeId(order) !== order.creatorId) lines.push('💰 收款人：' + payeeName(order));
+    orderStores(order).forEach(st => {
+      const min = num(st.minOrder);
+      if (!min) return;
+      const sub = storeSubtotal(entries, st.storeId, order.storeId);
+      if (sub < min) lines.push('🛵 ' + st.name + ' 外送門檻 ' + money(min) + '，還差 ' + money(min - sub));
+    });
+    const group = (st) => entries.filter(e => e.payStatus === st && !e.treated)
       .map(e => e.displayName + ' ' + money(e.amount) + (st === 'claimed' && e.payMethod ? '（' + (METHOD_LABEL[e.payMethod] || e.payMethod) + '）' : ''));
     const paid = group('paid'), claimed = group('claimed'), unpaid = group('unpaid');
     if (unpaid.length) lines.push('\n❌ 未付款\n' + unpaid.join('\n'));
-    if (claimed.length) lines.push('\n🕐 已回報、待 ' + order.creatorName + ' 確認\n' + claimed.join('\n'));
+    if (claimed.length) lines.push('\n🕐 已回報、待 ' + payeeName(order) + ' 確認\n' + claimed.join('\n'));
     if (paid.length) lines.push('\n✅ 已收款\n' + paid.join('\n'));
     if (!unpaid.length && !claimed.length) lines.push('\n🎉 全部收齊！');
   }
@@ -1221,14 +1427,30 @@ function loadOrder(orderId) {
   return o;
 }
 
+function storeView(store, order, entries) {
+  return {
+    storeId: store.storeId || '', name: store.name, phone: store.phone || '', address: store.address || '', hours: store.hours || '',
+    contact: store.contact || '', line: store.line || '', lineUrl: store.line ? lineAddUrl(store.line) : '', note: store.note || '',
+    minOrder: num(store.minOrder), categories: storeMenu(store),
+    merged: mergedItems(entries, store.storeId, order.storeId),
+    subtotal: storeSubtotal(entries, store.storeId, order.storeId),
+    orderUrl: store.storeId ? storeOaUrl(store, storeOrderText(order, store.storeId)) : ''
+  };
+}
+
 function getOrderView(orderId, me) {
   const order = loadOrder(orderId);
   const store = readAll('stores').find(s => s.storeId === order.storeId) || { name: order.storeName };
   const entries = orderEntries(orderId);
   const totals = computeTotals(order, entries);
+  const stores = orderStores(order);
+  let lastItems = [];
+  stores.forEach(st => { if (!lastItems.length) lastItems = lastOrderItems(me.userId, st.storeId, order.orderId); });
   return {
-    me: { userId: me.userId, name: me.name, isManager: canManage(order, me.userId), lastItems: lastOrderItems(me.userId, order.storeId, order.orderId) },
-    order: { orderId: order.orderId, storeName: order.storeName, status: order.status, creatorId: order.creatorId, creatorName: order.creatorName, deliveryFee: num(order.deliveryFee), discount: num(order.discount), createdAt: order.createdAt },
+    me: { userId: me.userId, name: me.name, isManager: canManage(order, me.userId), lastItems: lastItems },
+    order: { orderId: order.orderId, storeName: order.storeName, title: orderTitle(order), status: order.status, creatorId: order.creatorId, creatorName: order.creatorName,
+      payeeId: payeeId(order), payeeName: payeeName(order), deliveryFee: num(order.deliveryFee), discount: num(order.discount), createdAt: order.createdAt },
+    stores: (stores.length ? stores : [store]).map(st => storeView(st, order, entries)),
     store: { name: store.name, phone: store.phone || '', address: store.address || '', hours: store.hours || '', contact: store.contact || '', line: store.line || '', minOrder: num(store.minOrder), lineUrl: store.line ? lineAddUrl(store.line) : '', note: store.note || '', categories: storeMenu(store) },
     entries: entries,
     merged: mergedItems(entries),
@@ -1236,21 +1458,27 @@ function getOrderView(orderId, me) {
     storeOrderUrl: store.storeId ? storeOaUrl(store, storeOrderText(order)) : '',
     totals: totals,
     payInfo: cfg('PAY_INFO', ''),
-    payQr: payQrUrl(order.creatorId)
+    payQr: payQrUrl(payeeId(order))
   };
 }
 
 function saveMyEntry(body, me) {
   const order = loadOrder(body.orderId);
   if (order.status !== 'open') throw new Error('已經收單，不能再修改餐點');
-  const store = readAll('stores').find(s => s.storeId === order.storeId);
-  if (!store) throw new Error('找不到店家資料');
-  const cats = storeMenu(store);
-  const items = (body.items || []).slice(0, 50).map(it => priceLine(cats, it));
+  const stores = orderStores(order);
+  if (!stores.length) throw new Error('找不到店家資料');
+  const items = (body.items || []).slice(0, 50).map(it => {
+    const sid = it.storeId || order.storeId;
+    const st = stores.find(x => x.storeId === sid);
+    if (!st) throw new Error('這團沒有開這家店');
+    const line = priceLine(storeMenu(st), it);
+    line.storeId = st.storeId;
+    return line;
+  });
   const subtotal = items.reduce((s, i) => s + i.total, 0);
   const existing = readAll('entries').find(e => e.orderId === order.orderId && e.userId === me.userId);
   if (!items.length) { if (existing) deleteRow('entries', existing); return; }
-  if (existing && existing.payStatus === 'paid') throw new Error('你的款項已確認收款，要修改請先請 ' + order.creatorName + ' 改回未付');
+  if (existing && existing.payStatus === 'paid') throw new Error('你的款項已確認收款，要修改請先請 ' + payeeName(order) + ' 改回未付');
   const rec = existing || { entryId: shortId(), orderId: order.orderId, userId: me.userId, payStatus: 'unpaid', payMethod: '' };
   rec.displayName = me.name;
   rec.itemsJson = JSON.stringify(items);
@@ -1271,7 +1499,7 @@ function setPay(body, me) {
   if (['unpaid', 'claimed', 'paid'].indexOf(to) < 0) throw new Error('狀態錯誤');
   if (!manager) {
     if (!self) throw new Error('只能回報自己的付款');
-    if (to === 'paid') throw new Error('收款要由 ' + order.creatorName + ' 確認');
+    if (to === 'paid') throw new Error('收款要由 ' + payeeName(order) + ' 確認');
     if (en.payStatus === 'paid') throw new Error('已確認收款，無法修改');
   }
   en.payStatus = to;
