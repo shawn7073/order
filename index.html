@@ -275,6 +275,13 @@ function renderBoard() {
       </div></div></div>`;
   }
 
+  if (v.merged && v.merged.length) {
+    const qty = v.merged.reduce((n, x) => n + x.qty, 0);
+    h += `<div class="card"><h2><span>下單清單</span><span>共 ${qty} 份</span></h2>` +
+      v.merged.map(x => `<div class="row"><div><div class="name">${esc(x.label)}</div>${x.notes.length ? `<div class="meta">${esc(x.notes.join('；'))}</div>` : ''}</div><div class="price">×${x.qty}</div></div>`).join('') +
+      '</div>';
+  }
+
   const entries = v.entries.slice().sort((a, b) => (a.userId === me.userId ? -1 : b.userId === me.userId ? 1 : 0));
   h += `<div class="card"><h2><span>每人明細</span><span>${t.people} 人</span></h2>`;
   if (!entries.length) h += '<div class="empty">還沒有人點餐</div>';
