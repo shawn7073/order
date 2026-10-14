@@ -282,6 +282,11 @@ function renderBoard() {
       </div></div></div>`;
   }
 
+  if (v.notOrdered && v.notOrdered.length && o.status === 'open') {
+    h += `<div class="card"><h2><span>還沒點餐</span><span>${v.notOrdered.length} 人</span></h2>
+      <div class="row"><div class="meta">${esc(v.notOrdered.join('、'))}</div></div></div>`;
+  }
+
   if (v.merged && v.merged.length) {
     const qty = v.merged.reduce((n, x) => n + x.qty, 0);
     h += `<div class="card"><h2><span>下單清單</span><span>共 ${qty} 份</span></h2>` +
