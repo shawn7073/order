@@ -115,6 +115,8 @@ const S = { orderId: null, view: null, tab: 'menu', cart: [], dirty: false, busy
 const STATUS = { open: '收單中', closed: '已收單', done: '已結單' };
 const PAY = { unpaid: '未付款', claimed: '待確認', paid: '已收款' };
 const METHOD = { linepay: 'LINE Pay', cash: '現金', transfer: '轉帳' };
+const SUGARS = ['正常糖', '少糖', '半糖', '微糖', '一分糖', '無糖'];
+const ICES = ['正常冰', '少冰', '微冰', '去冰', '常溫', '熱'];
 
 const $ = (sel, el = document) => el.querySelector(sel);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -164,7 +166,7 @@ function apply(v, syncCart) {
   S.view = v;
   if (syncCart || !S.dirty) {
     const mine = v.entries.find(e => e.userId === v.me.userId);
-    S.cart = mine ? mine.items.map(i => ({ name: i.name, size: i.size, options: i.options.slice(), qty: i.qty, note: i.note })) : [];
+    S.cart = mine ? mine.items.map(i => ({ name: i.name, size: i.size, options: i.options.slice(), sugar: i.sugar || '', ice: i.ice || '', qty: i.qty, note: i.note })) : [];
     S.dirty = false;
   }
   render();
@@ -184,7 +186,17 @@ function unitPrice(line) {
 const cartTotal = () => S.cart.reduce((s, l) => s + unitPrice(l) * l.qty, 0);
 const cartCount = () => S.cart.reduce((s, l) => s + l.qty, 0);
 function lineLabel(l) {
-  return l.name + (l.size ? ' ' + l.size : '') + (l.options && l.options.length ? '（' + l.options.join('、') + '）' : '') + (l.note ? '・' + l.note : '');
+  const si = [l.sugar, l.ice].filter(Boolean).join(' ');
+  return l.name + (l.size ? ' ' + l.size : '') + (l.options && l.options.length ? '（' + l.options.join('、') + '）' : '') + (si ? ' ' + si : '') + (l.note ? '・' + l.note : '');
+}
+
+function minOrderBanner() {
+  const v = S.view, min = v.store.minOrder || 0;
+  if (!min) return '';
+  const cur = v.totals.itemsTotal || 0;
+  return cur >= min
+    ? `<div class="card"><div class="note">🛵 已達外送門檻 ${money(min)}（目前 ${money(cur)}）</div></div>`
+    : `<div class="card"><div class="note" style="background:var(--warn-soft);color:var(--warn)">🛵 外送門檻 ${money(min)}，目前大家點了 ${money(cur)}，還差 <b>${money(min - cur)}</b></div></div>`;
 }
 function itemPriceText(it) {
   return it.sizes && it.sizes.length ? it.sizes.map(s => s.name + ' ' + money(s.price)).join(' / ') : money(it.price);
@@ -224,6 +236,7 @@ function renderMenu() {
   const v = S.view; const open = v.order.status === 'open';
   let h = '';
   if (!open) h += `<div class="card"><div class="note">這團${STATUS[v.order.status]}，不能再修改餐點。</div></div>`;
+  h += minOrderBanner();
 
   const last = (v.me.lastItems || []).filter(l => findItem(l.name));
   if (open && !S.cart.length && last.length) {
@@ -269,7 +282,8 @@ function renderBoard() {
     </div>
     ${(t.deliveryFee || t.discount) ? `<div class="row meta">餐點 ${money(t.itemsTotal)}　運費 ${money(t.deliveryFee)}${t.discount ? '　折扣 -' + money(t.discount) : ''}（每人平均分攤）</div>` : ''}
     <div class="note">付款給 ${esc(o.creatorName)}${v.payInfo ? '：' + esc(v.payInfo) : ''}<br>付完請按自己那欄的「我付了」，${esc(o.creatorName)} 確認後會變成已收款。</div>
-  </div>`;
+    ${v.payQr ? `<div style="padding:12px 14px;text-align:center"><div class="meta" style="margin-bottom:6px">${esc(o.creatorName)} 的收款碼（長按可儲存）</div><img src="${esc(v.payQr)}" alt="收款碼" style="max-width:240px;width:100%;border-radius:10px;border:1px solid var(--line)"></div>` : ''}
+  </div>` + minOrderBanner();
 
   if (me.isManager) {
     h += `<div class="card"><h2>管理</h2><div class="manage">
@@ -327,6 +341,8 @@ function openPicker(item, editIndex) {
   const st = {
     size: base ? base.size : (item.sizes && item.sizes.length === 1 ? item.sizes[0].name : ''),
     options: base ? base.options.slice() : [],
+    sugar: base ? (base.sugar || '') : '',
+    ice: base ? (base.ice || '') : '',
     qty: base ? base.qty : 1,
     note: base ? base.note : ''
   };
@@ -340,7 +356,9 @@ function openPicker(item, editIndex) {
         `<button class="chip ${st.size === s.name ? 'on' : ''}" data-size="${esc(s.name)}">${esc(s.name)} ${money(s.price)}</button>`).join('')}</div></div>` : ''}
       ${item.options && item.options.length ? `<div class="group"><div>加料（可複選）</div><div class="chips">${item.options.map(op =>
         `<button class="chip ${st.options.includes(op.name) ? 'on' : ''}" data-opt="${esc(op.name)}">${esc(op.name)} +${op.price}</button>`).join('')}</div></div>` : ''}
-      <div class="group"><div>備註（甜度、冰塊、不要蔥…）</div><input class="field" id="pnote" maxlength="60" value="${esc(st.note)}" placeholder="選填"></div>
+      <div class="group"><div>甜度</div><div class="chips">${SUGARS.map(x => `<button class="chip ${st.sugar === x ? 'on' : ''}" data-sugar="${x}">${x}</button>`).join('')}</div></div>
+      <div class="group"><div>冰塊</div><div class="chips">${ICES.map(x => `<button class="chip ${st.ice === x ? 'on' : ''}" data-ice="${x}">${x}</button>`).join('')}</div></div>
+      <div class="group"><div>其他備註</div><input class="field" id="pnote" maxlength="60" value="${esc(st.note)}" placeholder="選填，例如不要蔥、加辣"></div>
       <div class="group"><div>數量</div><div class="qty"><button data-q="-1">−</button><b>${st.qty}</b><button data-q="1">＋</button></div></div>
       <div class="actions"><button class="btn ghost" data-x="cancel">取消</button>
         <button class="btn" data-x="ok">${editIndex != null ? '更新' : '加入'}　${money(unitPrice(line) * st.qty)}</button></div>
@@ -350,11 +368,13 @@ function openPicker(item, editIndex) {
       st.note = $('#pnote', bg).value;
       const n = b.dataset.opt; st.options = st.options.includes(n) ? st.options.filter(x => x !== n) : st.options.concat(n); draw();
     });
+    bg.querySelectorAll('[data-sugar]').forEach(b => b.onclick = () => { st.note = $('#pnote', bg).value; st.sugar = st.sugar === b.dataset.sugar ? '' : b.dataset.sugar; draw(); });
+    bg.querySelectorAll('[data-ice]').forEach(b => b.onclick = () => { st.note = $('#pnote', bg).value; st.ice = st.ice === b.dataset.ice ? '' : b.dataset.ice; draw(); });
     bg.querySelectorAll('[data-q]').forEach(b => b.onclick = () => { st.note = $('#pnote', bg).value; st.qty = Math.max(1, Math.min(99, st.qty + Number(b.dataset.q))); draw(); });
     bg.querySelector('[data-x=cancel]').onclick = () => bg.remove();
     bg.querySelector('[data-x=ok]').onclick = () => {
       if (item.sizes && item.sizes.length && !st.size) { toast('請先選尺寸'); return; }
-      const l = { name: item.name, size: st.size, options: st.options, qty: st.qty, note: $('#pnote', bg).value.trim() };
+      const l = { name: item.name, size: st.size, options: st.options, sugar: st.sugar, ice: st.ice, qty: st.qty, note: $('#pnote', bg).value.trim() };
       if (editIndex != null) S.cart[editIndex] = l; else S.cart.push(l);
       S.dirty = true; bg.remove(); render();
       toast(editIndex != null ? '已更新，記得按「送出餐點」' : '已加入，記得按「送出餐點」');
@@ -373,7 +393,7 @@ function bind() {
     if (a === 'edit') { const l = S.cart[el.dataset.i]; const it = findItem(l.name); if (it) openPicker(it, Number(el.dataset.i)); return; }
     if (a === 'repeat') {
       S.cart = (S.view.me.lastItems || []).filter(l => findItem(l.name))
-        .map(l => ({ name: l.name, size: l.size, options: (l.options || []).slice(), qty: l.qty, note: l.note }));
+        .map(l => ({ name: l.name, size: l.size, options: (l.options || []).slice(), sugar: l.sugar || '', ice: l.ice || '', qty: l.qty, note: l.note }));
       S.dirty = true; render(); toast('已帶入上次的餐點，確認後按「送出餐點」'); return;
     }
     if (a === 'del') { S.cart.splice(Number(el.dataset.i), 1); S.dirty = true; render(); return; }
