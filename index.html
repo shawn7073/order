@@ -198,6 +198,7 @@ function render() {
       .map(p => '<a href="tel:' + esc(p.replace(/[^\d+#]/g, '')) + '">' + esc(p) + '</a>').join('、'),
     st.address && '📍 ' + esc(st.address),
     st.hours && '🕘 ' + esc(st.hours),
+    st.line && '🟢 LINE <a href="' + esc(st.lineUrl) + '">' + esc(st.line) + '</a>',
     st.contact && '💬 ' + esc(st.contact),
     st.note && '📝 ' + esc(st.note)
   ].filter(Boolean).map(s => '<div>' + s + '</div>').join('');
@@ -290,6 +291,7 @@ function renderBoard() {
   if (v.merged && v.merged.length) {
     const qty = v.merged.reduce((n, x) => n + x.qty, 0);
     h += `<div class="card"><h2><span>下單清單</span><span>共 ${qty} 份</span></h2>` +
+      (me.isManager && v.storeOrderUrl ? `<div class="row"><div class="meta">打開店家 LINE 並填好訂單，按送出即可</div><a class="btn sm" style="text-decoration:none" href="${esc(v.storeOrderUrl)}">📤 傳給店家</a></div>` : '') +
       v.merged.map(x => `<div class="row"><div><div class="name">${esc(x.label)}</div>${x.notes.length ? `<div class="meta">${esc(x.notes.join('；'))}</div>` : ''}</div><div class="price">×${x.qty}</div></div>`).join('') +
       '</div>';
   }
