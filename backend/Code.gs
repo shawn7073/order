@@ -458,10 +458,16 @@ function handleDmText(ev, t) {
 
   if (t === '設定收款碼') {
     CacheService.getScriptCache().put('awaitpay_' + uid, '1', 600);
-    return reply(tok, [txt('請在 10 分鐘內傳一張你的收款 QR code 圖片（LINE Pay、街口或銀行轉帳都可以）。\n之後你開的團，點餐頁都會顯示這張收款碼。')]);
+    return reply(tok, [txt('請在 10 分鐘內傳一張你的「收款」QR code 圖片（LINE Pay、街口或銀行轉帳都可以）。\n\n⚠️ 只能傳「收款碼」！千萬不要傳「付款碼／付款條碼」，那是讓店家掃了直接扣你錢用的。\n\n之後你開的團，點餐頁會顯示這張收款碼給團員掃。')]);
   }
   if (t === '刪除收款碼') {
-    withLock(() => { const r = readAll('payqr').find(x => x.userId === uid); if (r) deleteRow('payqr', r); });
+    withLock(() => {
+      const r = readAll('payqr').find(x => x.userId === uid);
+      if (r) {
+        if (r.fileId) { try { DriveApp.getFileById(r.fileId).setTrashed(true); } catch (e) { /* ignore */ } }
+        deleteRow('payqr', r);
+      }
+    });
     return reply(tok, [txt('已刪除你的收款碼。')]);
   }
 
