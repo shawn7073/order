@@ -1,0 +1,205 @@
+{
+  "store": {
+    "name": "茶海 CHA Hi 向心南店",
+    "phone": "04-2473-5577",
+    "address": "台中市南屯區向心南路990號",
+    "hours": "每日 10:00–22:00",
+    "contact": "https://www.chahi.com.tw/",
+    "note": "菜單資料來源：Uber Eats 茶海CHA Hi 向心南店頁 https://www.ubereats.com/tw/store/%E8%8C%B6%E6%B5%B7cha-hi-%E5%90%91%E5%BF%83%E5%8D%97%E5%BA%97/IvGxmgs8VJmoLAjoTCwoKg（2026-10-14 擷取，僅精選與部分品項可見）；分類依官方/外送平台分類歸類。官網菜單為圖片無法讀取。價格為外送平台價、多為大杯，門市價通常較低；價格以門市為準"
+  },
+  "categories": [
+    {
+      "name": "經典",
+      "items": [
+        {
+          "name": "茶海仙草饌拿鐵",
+          "price": 75,
+          "sizes": [],
+          "options": [],
+          "note": "無咖啡因，建議三分糖"
+        },
+        {
+          "name": "經典仙草饌",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "番茄梅梅",
+          "price": 75,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "芭樂梅梅",
+          "price": 75,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "鮮果柚柚",
+          "price": 99,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "紅豆紫米拿鐵",
+          "price": 75,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "水蜜桃輕烏",
+          "price": 80,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "原萃",
+      "items": [
+        {
+          "name": "養樂多多綠",
+          "price": 65,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "奶茶",
+      "items": [
+        {
+          "name": "茶海仙草饌奶茶",
+          "price": 70,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "珍珠奶茶",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "茉綠凍奶茶",
+          "price": 65,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "布丁奶茶",
+          "price": 75,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "茶海雙Q奶茶",
+          "price": 63,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "拿鐵",
+      "items": [
+        {
+          "name": "錫蘭紅拿鐵",
+          "price": 70,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "輕烏拿鐵",
+          "price": 70,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "三薰拿鐵",
+          "price": 70,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "珍珠拿鐵",
+          "price": 70,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "茉綠凍拿鐵",
+          "price": 75,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "布丁拿鐵",
+          "price": 86,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "鮮果",
+      "items": [
+        {
+          "name": "甘梅青",
+          "price": 55,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "芭樂百香綠",
+          "price": 70,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "芭樂檸檬綠",
+          "price": 70,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "茉綠凍檸青",
+          "price": 65,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "桂圓紅棗茶",
+          "price": 65,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

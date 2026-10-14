@@ -1,0 +1,2674 @@
+{
+  "store": {
+    "name": "麻古茶坊 大墩店",
+    "phone": "04-2320-1036",
+    "address": "台中市西屯區大墩路875號",
+    "hours": "平日 09:30–20:50、假日 10:00–20:50",
+    "contact": "https://www.macutea.com.tw/",
+    "note": "麻古中部價目，來源：cpok.tw/56239（2026-07-21，中部菜單）；部分價格與 beauty321.com（2026-04-01）中部價核對相符。加料價來源：sipspot.wisplu.com.tw（2026-10-14，未標地區）。官網中部菜單 menu_M.jpg 為圖片未能讀取。季節限定未列。瓶裝為單瓶價格。價格以門市為準"
+  },
+  "categories": [
+    {
+      "name": "原味茶",
+      "items": [
+        {
+          "name": "高山金萱茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 30
+            },
+            {
+              "name": "瓶裝",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "翡翠綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 30
+            },
+            {
+              "name": "瓶裝",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "錫蘭紅茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 30
+            },
+            {
+              "name": "瓶裝",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "文山青茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 30
+            },
+            {
+              "name": "瓶裝",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "古早味紅茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 30
+            },
+            {
+              "name": "瓶裝",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "紅萱烏龍",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 35
+            },
+            {
+              "name": "瓶裝",
+              "price": 50
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "金萱雙Q",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 40
+            },
+            {
+              "name": "瓶裝",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "紅萱雙Q",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 45
+            },
+            {
+              "name": "瓶裝",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "粉粿金萱",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 50
+            },
+            {
+              "name": "瓶裝",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "鮮果茶飲",
+      "items": [
+        {
+          "name": "百香綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 55
+            },
+            {
+              "name": "瓶裝",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "百香雙Q果",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 60
+            },
+            {
+              "name": "瓶裝",
+              "price": 80
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "百香多多",
+          "price": 60,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "翡翠柳橙",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 60
+            },
+            {
+              "name": "瓶裝",
+              "price": 90
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "柚香翡翠",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 65
+            },
+            {
+              "name": "瓶裝",
+              "price": 95
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "橙香紅萱",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 65
+            },
+            {
+              "name": "瓶裝",
+              "price": 95
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "粉粿橙香紅萱",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 75
+            },
+            {
+              "name": "瓶裝",
+              "price": 105
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "冰萃檸檬",
+          "price": 55,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "粉粿冰萃檸檬",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "蜂蜜檸檬",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "果粒茶系列",
+      "items": [
+        {
+          "name": "柳橙果粒茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 70
+            },
+            {
+              "name": "瓶裝",
+              "price": 100
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "香橙果粒茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 75
+            },
+            {
+              "name": "瓶裝",
+              "price": 105
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "葡萄柚果粒茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 75
+            },
+            {
+              "name": "瓶裝",
+              "price": 105
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "葡萄柚果粒蜜茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 70
+            },
+            {
+              "name": "瓶裝",
+              "price": 100
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "濃醇系列",
+      "items": [
+        {
+          "name": "錫蘭奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 50
+            },
+            {
+              "name": "瓶裝",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "鐵觀音奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 50
+            },
+            {
+              "name": "瓶裝",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "波霸奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 50
+            },
+            {
+              "name": "瓶裝",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "仙草凍奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 50
+            },
+            {
+              "name": "瓶裝",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "玫瑰奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 60
+            },
+            {
+              "name": "瓶裝",
+              "price": 85
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "阿華田",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 60
+            },
+            {
+              "name": "瓶裝",
+              "price": 85
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "芝芝系列",
+      "items": [
+        {
+          "name": "芝芝金萱/錫蘭紅茶",
+          "price": 50,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "芝芝翡翠綠茶",
+          "price": 50,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "芝芝金萱雙Q",
+          "price": 60,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "芝芝蜜桃紅茶",
+          "price": 60,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "芝芝錫蘭奶茶",
+          "price": 70,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "芝芝阿華田",
+          "price": 80,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "經典特調",
+      "items": [
+        {
+          "name": "梅子冰茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 35
+            },
+            {
+              "name": "瓶裝",
+              "price": 50
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "梅子綠茶",
+          "price": 50,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "多多綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 50
+            },
+            {
+              "name": "瓶裝",
+              "price": 80
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "鮮奶系列",
+      "items": [
+        {
+          "name": "紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 65
+            },
+            {
+              "name": "瓶裝",
+              "price": 95
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "鐵觀音拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 65
+            },
+            {
+              "name": "瓶裝",
+              "price": 95
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "波霸紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 65
+            },
+            {
+              "name": "瓶裝",
+              "price": 95
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "仙草凍紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 65
+            },
+            {
+              "name": "瓶裝",
+              "price": 95
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "阿華田拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 65
+            },
+            {
+              "name": "瓶裝",
+              "price": 95
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "玫瑰紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 70
+            },
+            {
+              "name": "瓶裝",
+              "price": 100
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "寶石系列（無咖啡因）",
+      "items": [
+        {
+          "name": "蕎麥綠寶石",
+          "price": null,
+          "sizes": [
+            {
+              "name": "L",
+              "price": 40
+            },
+            {
+              "name": "瓶裝",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加混珠",
+              "price": 10
+            },
+            {
+              "name": "加雙Q果",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加波波",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加養樂多",
+              "price": 10
+            },
+            {
+              "name": "加三Q布丁",
+              "price": 15
+            },
+            {
+              "name": "加芝芝",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

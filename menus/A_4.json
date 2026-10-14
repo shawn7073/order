@@ -1,0 +1,1271 @@
+{
+  "store": {
+    "name": "迷客夏 台中大墩店",
+    "phone": "04-2471-1976",
+    "address": "台中市南屯區大墩六街257號",
+    "hours": "10:00–22:00（週三、四至 01:00）",
+    "contact": "https://www.milksha.com/",
+    "note": "迷客夏中南部一般門市價目，來源：dailydietitian.com.tw 迷客夏菜單（2026-10-07 更新，中南部）；品項與分類依官網 milksha.com/products.php（2026-10-14 查閱）核對。官網價目 PDF 未能讀取。加料脆啵啵球價格來源 beauty321.com（2026-06-29）。季節限定未列。價格以門市為準"
+  },
+  "categories": [
+    {
+      "name": "醇萃茶",
+      "items": [
+        {
+          "name": "娜杯紅茶",
+          "price": 40,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "英倫伯爵紅茶",
+          "price": 35,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "大正醇香紅茶",
+          "price": 35,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "原片初露青茶",
+          "price": 35,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "茉莉原淬綠茶",
+          "price": 35,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "琥珀高峰烏龍",
+          "price": 35,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "醇濃鮮奶茶",
+      "items": [
+        {
+          "name": "娜杯紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "伯爵紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "大正紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "琥珀烏龍拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "茉香綠茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "原片青茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "珍珠伯爵紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 60
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "珍珠大正紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 60
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "珍珠娜杯紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 65
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "無咖啡因",
+      "items": [
+        {
+          "name": "桂香輕蕎麥",
+          "price": 55,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "輕纖蕎麥茶",
+          "price": 45,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "輕纖蕎麥拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 65
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "焙香決明大麥",
+          "price": 35,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "焙香大麥拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "原鄉冬瓜茶",
+          "price": 40,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "price": 55,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "冬瓜麥茶",
+          "price": 55,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "醇濃綠光鮮奶",
+      "items": [
+        {
+          "name": "芋頭鮮奶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 65
+            },
+            {
+              "name": "L",
+              "price": 85
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "珍珠鮮奶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 65
+            },
+            {
+              "name": "L",
+              "price": 85
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "手炒黑糖鮮奶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 65
+            },
+            {
+              "name": "L",
+              "price": 85
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "嫩仙草凍奶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 65
+            },
+            {
+              "name": "L",
+              "price": 85
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "綠光純鮮奶家庭號",
+          "price": 169,
+          "sizes": [],
+          "options": [],
+          "note": "家庭號瓶裝鮮奶"
+        }
+      ]
+    },
+    {
+      "name": "鮮調果茶",
+      "items": [
+        {
+          "name": "桂香原片青",
+          "price": 50,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "桂香青檸蜂蜜粉粿",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "柳丁綠茶",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "柳丁青茶",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "白甘蔗青茶",
+          "price": 70,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "青檸香茶",
+          "price": 70,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "蜂蜜檸檬晶凍",
+          "price": 60,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "香柚綠茶",
+          "price": 60,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "養樂多綠",
+          "price": 55,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "冬瓜青茶",
+          "price": 55,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "冰萃柳丁",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "冰萃檸檬",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 10
+            },
+            {
+              "name": "加綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加脆啵啵球",
+              "price": 15
+            },
+            {
+              "name": "加蜂蜜黑糖粉粿（冷飲限定）",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    }
+  ]
+}

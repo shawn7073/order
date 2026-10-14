@@ -1,0 +1,2237 @@
+{
+  "store": {
+    "name": "50嵐 大墩店",
+    "phone": "04-2473-6708",
+    "address": "台中市南屯區大墩路271號",
+    "hours": "09:00–22:20",
+    "contact": "https://www.50lan.com.tw/",
+    "note": "50嵐中區（雅嵐）價目，來源：dailydietitian.com.tw 50嵐北中南菜單（2026-10-14 更新）、sipspot.wisplu.com.tw 50嵐菜單（2026-10-14 更新，加料價）；兩者價格一致。官網為圖片未能直接讀取。中區季節限定系列未列。部分中區門市飲品45元以上可免費加一份波霸/珍珠/燕麥/椰果（roo.cash 2026-05），以門市為準。價格以門市為準"
+  },
+  "categories": [
+    {
+      "name": "好茶系列",
+      "items": [
+        {
+          "name": "茉莉綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "阿薩姆紅茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "四季春青茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "黃金烏龍",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "椰果紅/綠",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "波霸紅/綠",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "燕麥紅/綠/青",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "微檸檬紅/青",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "檸檬綠/青",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "梅の綠",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "8冰綠",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "情人茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "柚子紅/綠/青/烏",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "旺來紅/青",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "冰淇淋紅茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "多多綠/紅",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "多多檸檬綠",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "奶茶系列",
+      "items": [
+        {
+          "name": "奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "奶綠",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "烏龍奶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "椰果奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "珍珠奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "波霸奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "燕麥奶茶/奶青",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "燕麥烏龍奶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "布丁奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "冰淇淋奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "紅茶瑪奇朵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "青茶瑪奇朵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "阿華田",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "燕麥阿華田",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "可可芭蕾",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "拿鐵系列",
+      "items": [
+        {
+          "name": "紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "綠茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "烏龍拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "珍珠紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "波霸紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "燕麥紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "布丁紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "冰淇淋紅茶拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "阿華田拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "燕麥阿華田拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "可可芭蕾拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "新鮮系列",
+      "items": [
+        {
+          "name": "柚子茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "8冰茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 40
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "檸檬汁",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "金桔檸檬",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "檸檬梅汁",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "檸檬多多",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加波霸",
+              "price": 10
+            },
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加燕麥",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加布丁",
+              "price": 20
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 20
+            },
+            {
+              "name": "加瑪奇朵",
+              "price": 20
+            }
+          ],
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

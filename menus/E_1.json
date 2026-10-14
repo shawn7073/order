@@ -1,0 +1,165 @@
+{
+  "store": {
+    "name": "吾茗氏",
+    "phone": "04-2322-1922",
+    "address": "台中市南屯區大墩十一街181號",
+    "hours": "週一至週五 10:30–20:00、週六 11:00–20:00，週日公休",
+    "contact": "https://warmestteashop.com/",
+    "note": "菜單資料來源：Uber Eats 吾茗氏店家頁 https://www.ubereats.com/tw/store/%E5%90%BE%E8%8C%97%E6%B0%8F/myOwHB7QTsefyRr5TJplUg（2026-10-14 擷取，僅部分品項可見；鮮奶茶飲／品茗好茶／鮮果茶飲分類品項未顯示）。價格為外送平台價，門市價可能較低約5元；價格以門市為準"
+  },
+  "categories": [
+    {
+      "name": "人氣精選",
+      "items": [
+        {
+          "name": "完熟蘋果茶",
+          "price": 65,
+          "sizes": [],
+          "options": [],
+          "note": "建議無糖，冷飲"
+        },
+        {
+          "name": "吾茗水果茶",
+          "price": 65,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "蜂蜜檸檬青",
+          "price": 55,
+          "sizes": [],
+          "options": [],
+          "note": "固定蜂蜜甜度"
+        }
+      ]
+    },
+    {
+      "name": "霜降奶蓋",
+      "items": [
+        {
+          "name": "霜降蕎麥",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "霜降青茶",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": "冷飲"
+        },
+        {
+          "name": "霜降藏蜜",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": "糖冰固定，蜜茶加奶蓋"
+        },
+        {
+          "name": "霜降鐵觀音",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": "冷飲"
+        },
+        {
+          "name": "霜降紅茶",
+          "price": 55,
+          "sizes": [],
+          "options": [],
+          "note": "冷飲"
+        },
+        {
+          "name": "霜降綠茶",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": "冷飲"
+        }
+      ]
+    },
+    {
+      "name": "吾茗特調",
+      "items": [
+        {
+          "name": "粉粿奶茶",
+          "price": 55,
+          "sizes": [],
+          "options": [],
+          "note": "冷飲"
+        },
+        {
+          "name": "吾茗奶綠",
+          "price": 45,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "珍珠奶茶",
+          "price": 55,
+          "sizes": [],
+          "options": [],
+          "note": "小顆珍珠"
+        },
+        {
+          "name": "小麥胚芽奶茶",
+          "price": 55,
+          "sizes": [],
+          "options": [],
+          "note": "冰飲，最低微糖"
+        },
+        {
+          "name": "鐵觀音奶茶",
+          "price": 45,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "阿薩姆奶茶",
+          "price": 45,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "布丁奶茶",
+          "price": 55,
+          "sizes": [],
+          "options": [],
+          "note": "冷飲"
+        },
+        {
+          "name": "可可奶茶",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "波霸奶茶",
+          "price": 55,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "鮮奶茶飲",
+      "items": [
+        {
+          "name": "紅茶鮮奶",
+          "price": 60,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

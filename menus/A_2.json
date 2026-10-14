@@ -1,0 +1,3708 @@
+{
+  "store": {
+    "name": "清心福全 大墩店",
+    "phone": "04-2328-4589",
+    "address": "台中市南屯區大墩路858號",
+    "hours": "09:30–01:30",
+    "contact": "https://www.chingshin.tw/",
+    "note": "飲品價格來源：dailydietitian.com.tw 清心福全菜單（2026-10-07 更新，未標示地區；與 beauty321.com 2026-02-03 文章所列價格相符）。加料價來源：sipspot.wisplu.com.tw（2026-10-14），未經官方確認。季節限定、冬季熱飲、艾思冰沙、益生菌、相思紅豆等限定品未列。價格以門市為準"
+  },
+  "categories": [
+    {
+      "name": "茗品系列",
+      "items": [
+        {
+          "name": "烏龍綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "特級綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "錫蘭紅茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "極品菁茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "原鄉四季",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "特選普洱",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 30
+            },
+            {
+              "name": "L",
+              "price": 35
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "冬瓜/百香果系列",
+      "items": [
+        {
+          "name": "冬瓜茶",
+          "price": 40,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "冬瓜菁茶",
+          "price": 45,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "冬瓜檸檬",
+          "price": 60,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "百香果綠茶",
+          "price": 60,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "雙Q百香果綠茶",
+          "price": 70,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "季節鮮果系列",
+      "items": [
+        {
+          "name": "柳橙綠",
+          "price": 70,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "鳳梨紅茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "蜂蜜檸檬",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 60
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "檸檬汁",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "金桔檸檬",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "桔茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "檸檬紅茶/綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "蘆薈蜂蜜檸檬",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 70
+            },
+            {
+              "name": "L",
+              "price": 90
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "鮮奶/拿鐵系列",
+      "items": [
+        {
+          "name": "鮮奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "珍珠鮮奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "粉圓鮮奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "茉綠茶凍拿鐵",
+          "price": 70,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "雙凍拿鐵",
+          "price": 75,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "珍珠蜂蜜鮮奶普洱",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "隱藏版"
+        },
+        {
+          "name": "頂級可可拿鐵",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 65
+            },
+            {
+              "name": "L",
+              "price": 85
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "鮮奶冬瓜",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "珍珠芝麻拿鐵",
+          "price": 75,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "珍珠琥珀黑糖鮮奶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 65
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "粉戀莓莓",
+          "price": 85,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "奶茶系列",
+      "items": [
+        {
+          "name": "珍珠/粉圓奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "錫蘭奶紅",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "烏龍奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "特級奶綠",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "仙草凍奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "椰果奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "布丁奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "咖啡凍奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "蜂蜜奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "琥珀黑糖奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "茶凍奶綠",
+          "price": 60,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "芝麻奶茶",
+          "price": 70,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "優多系列",
+      "items": [
+        {
+          "name": "優多綠茶",
+          "price": 55,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "優多百香果綠茶",
+          "price": 65,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "優多檸檬",
+          "price": 70,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "蘆薈優多綠茶",
+          "price": 75,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "優多莓莓",
+          "price": 85,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "紅心芭樂優多",
+          "price": 75,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "果醋系列",
+      "items": [
+        {
+          "name": "蘋果醋",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "蘋果醋紅茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "蜂蜜蘋果醋",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "藍莓醋",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "蜂蜜藍莓醋",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 70
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "荔枝蘋果醋",
+          "price": 75,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "特調系列",
+      "items": [
+        {
+          "name": "梅子綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "蜂蜜烏龍/綠茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "頂級可可",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "濃情巧克力",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 45
+            },
+            {
+              "name": "L",
+              "price": 55
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "蜜茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 35
+            },
+            {
+              "name": "L",
+              "price": 45
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "情人茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "咖啡奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 65
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "Red Bull 紅牛能量紅茶",
+          "price": 80,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "Red Bull 紅牛能量藍莓蜜",
+          "price": 80,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "Red Bull 巨峰葡萄能量優多",
+          "price": 80,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        },
+        {
+          "name": "Red Bull 巨峰葡萄能量果醋",
+          "price": 80,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "僅大杯"
+        }
+      ]
+    },
+    {
+      "name": "冰淇淋系列",
+      "items": [
+        {
+          "name": "冰淇淋紅茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 50
+            },
+            {
+              "name": "L",
+              "price": 60
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "冰淇淋奶茶",
+          "price": null,
+          "sizes": [
+            {
+              "name": "M",
+              "price": 55
+            },
+            {
+              "name": "L",
+              "price": 75
+            }
+          ],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": ""
+        },
+        {
+          "name": "紅茶三兄弟",
+          "price": 75,
+          "sizes": [],
+          "options": [
+            {
+              "name": "加珍珠",
+              "price": 10
+            },
+            {
+              "name": "加粉圓",
+              "price": 10
+            },
+            {
+              "name": "加椰果",
+              "price": 10
+            },
+            {
+              "name": "加茉綠茶凍",
+              "price": 10
+            },
+            {
+              "name": "加蜜桃醬",
+              "price": 10
+            },
+            {
+              "name": "加仙草凍",
+              "price": 15
+            },
+            {
+              "name": "加咖啡凍",
+              "price": 15
+            },
+            {
+              "name": "加蘆薈",
+              "price": 15
+            },
+            {
+              "name": "加布丁",
+              "price": 15
+            },
+            {
+              "name": "加冰淇淋",
+              "price": 15
+            }
+          ],
+          "note": "珍珠+冰淇淋+布丁紅茶；僅大杯"
+        }
+      ]
+    }
+  ]
+}

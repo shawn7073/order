@@ -1,0 +1,1142 @@
+{
+ "store": {
+  "name": "可不可熟成茶行 台中黎明店",
+  "phone": "04-2382-3888",
+  "address": "台中市南屯區黎明路二段162號",
+  "hours": "10:00–21:30",
+  "contact": "https://www.kebuke.com/",
+  "note": "可不可官網菜單 kebuke.com/menu（「其他地區」價目，官網菜單檔名 2026.09_18週年_官網常態菜單），2026-10-14 查閱；價格以門市為準"
+ },
+ "categories": [
+  {
+   "name": "乎乾 好茶",
+   "items": [
+    {
+     "name": "熟成紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 30
+      },
+      {
+       "name": "L",
+       "price": 35
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "麗春紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 30
+      },
+      {
+       "name": "L",
+       "price": 35
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "春芽綠茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 30
+      },
+      {
+       "name": "L",
+       "price": 35
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "胭脂紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 40
+      },
+      {
+       "name": "L",
+       "price": 45
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "茶花輕焙烏龍",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 40
+      },
+      {
+       "name": "L",
+       "price": 45
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "乎乾 冬瓜",
+   "items": [
+    {
+     "name": "雪花冷露",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 30
+      },
+      {
+       "name": "L",
+       "price": 35
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "熟成冷露",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 35
+      },
+      {
+       "name": "L",
+       "price": 40
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "春芽冷露",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 35
+      },
+      {
+       "name": "L",
+       "price": 40
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "胭脂冷露",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 40
+      },
+      {
+       "name": "L",
+       "price": 45
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "檸檬冷露",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 45
+      },
+      {
+       "name": "L",
+       "price": 55
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "乎乾 手作",
+   "items": [
+    {
+     "name": "熟檸紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 40
+      },
+      {
+       "name": "L",
+       "price": 50
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "春檸綠茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 40
+      },
+      {
+       "name": "L",
+       "price": 50
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "春梅冰茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 45
+      },
+      {
+       "name": "L",
+       "price": 55
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "金蜜熟成",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 48
+      },
+      {
+       "name": "L",
+       "price": 58
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "金蜜檸檬",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 48
+      },
+      {
+       "name": "L",
+       "price": 58
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "胭脂多多",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "茶花烏龍梅",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "茶花烏龍多多",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "蘋果麗春",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 59
+      },
+      {
+       "name": "L",
+       "price": 69
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "蘋果春芽",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 59
+      },
+      {
+       "name": "L",
+       "price": 69
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "蘋果茶花烏龍",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 65
+      },
+      {
+       "name": "L",
+       "price": 75
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "乎乾 鮮奶茶",
+   "items": [
+    {
+     "name": "熟成歐蕾",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 55
+      },
+      {
+       "name": "L",
+       "price": 65
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "冷露歐蕾",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 55
+      },
+      {
+       "name": "L",
+       "price": 65
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "金蜜歐蕾",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 60
+      },
+      {
+       "name": "L",
+       "price": 70
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "胭脂歐蕾",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 59
+      },
+      {
+       "name": "L",
+       "price": 69
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "白玉歐蕾",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 60
+      },
+      {
+       "name": "L",
+       "price": 70
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "乎乾 奶茶",
+   "items": [
+    {
+     "name": "熟成奶茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 45
+      },
+      {
+       "name": "L",
+       "price": 55
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "春芽奶茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 45
+      },
+      {
+       "name": "L",
+       "price": 55
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "胭脂奶茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "白玉奶茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "乎乾 厚乳",
+   "items": [
+    {
+     "name": "茶花烏龍厚乳",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 59
+      },
+      {
+       "name": "L",
+       "price": 69
+      }
+     ],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "蘋果春芽厚乳",
+     "price": 69,
+     "sizes": [],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": "僅中杯"
+    }
+   ]
+  },
+  {
+   "name": "乎乾 冰淇淋",
+   "items": [
+    {
+     "name": "雪藏紅茶",
+     "price": 60,
+     "sizes": [],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": "僅大杯"
+    },
+    {
+     "name": "雪藏奶茶",
+     "price": 69,
+     "sizes": [],
+     "options": [
+      {
+       "name": "加白玉珍珠",
+       "price": 10
+      },
+      {
+       "name": "加水玉晶球",
+       "price": 15
+      },
+      {
+       "name": "加春梅凍（溫熱飲不適用）",
+       "price": 15
+      },
+      {
+       "name": "加馬告檸檬凍（溫熱飲不適用）",
+       "price": 15
+      }
+     ],
+     "note": "僅大杯"
+    }
+   ]
+  }
+ ]
+}

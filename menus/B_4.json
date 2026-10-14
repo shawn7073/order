@@ -1,0 +1,1663 @@
+{
+ "store": {
+  "name": "鶴茶樓 南屯大墩店",
+  "phone": "04-2310-0655",
+  "address": "台中市南屯區大墩路912號",
+  "hours": "週一至週六 10:00–20:00，週日公休",
+  "contact": "https://www.hechaloutea.com/",
+  "note": "無法讀取官網；價格取自 SipSpot 飲料地圖 sipspot.wisplu.com.tw（2026-10-14）與 Roo.Cash roo.cash/blog/hechalou-tea-menu（2026-03-20 更新）兩站一致價，鶴記芝麻糊凍鶴頂那堤、鶴記鴛鴦凍奶茶依美人圈 beauty321.com/post/70440（2026-06-09）較新價並經 Uber Eats 南屯大墩店頁比對；價格以門市為準"
+ },
+ "categories": [
+  {
+   "name": "私藏古法茶",
+   "items": [
+    {
+     "name": "鶴頂紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 30
+      },
+      {
+       "name": "L",
+       "price": 35
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": "可選順口/濃口"
+    },
+    {
+     "name": "綺夢紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 35
+      },
+      {
+       "name": "L",
+       "price": 40
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "舶來紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 30
+      },
+      {
+       "name": "L",
+       "price": 35
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "藝伎紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 35
+      },
+      {
+       "name": "L",
+       "price": 40
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "蘭香綠茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 25
+      },
+      {
+       "name": "L",
+       "price": 30
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "桂香烏龍茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 35
+      },
+      {
+       "name": "L",
+       "price": 40
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "金萱青茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 30
+      },
+      {
+       "name": "L",
+       "price": 35
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "鶴記凍飲",
+   "items": [
+    {
+     "name": "鶴記茶凍奶茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": "可選桂香烏龍凍/鶴頂紅茶凍"
+    },
+    {
+     "name": "鶴記鴛鴦凍奶茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 60
+      },
+      {
+       "name": "L",
+       "price": 70
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": "杏仁凍＋芝麻糊凍"
+    },
+    {
+     "name": "鶴記杏仁凍桂香烏龍茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 55
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "桂香烏龍凍綺夢那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 65
+      },
+      {
+       "name": "L",
+       "price": 75
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "鶴記芝麻糊凍鶴頂那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 70
+      },
+      {
+       "name": "L",
+       "price": 80
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "傳統復刻奶茶",
+   "items": [
+    {
+     "name": "復刻奶茶",
+     "price": 50,
+     "sizes": [],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": "僅大杯"
+    },
+    {
+     "name": "復刻胚芽奶茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "鍋煮鮮奶茶",
+   "items": [
+    {
+     "name": "鶴頂那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "綺夢那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 55
+      },
+      {
+       "name": "L",
+       "price": 65
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "舶來那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "桂香烏龍那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 55
+      },
+      {
+       "name": "L",
+       "price": 65
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "藝伎那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 55
+      },
+      {
+       "name": "L",
+       "price": 65
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "綺夢珍珠那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 65
+      },
+      {
+       "name": "L",
+       "price": 75
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "神農氏那堤",
+     "price": 60,
+     "sizes": [],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": "僅中杯；限少冰"
+    },
+    {
+     "name": "鶴記紅茶鮮豆奶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": "可選鶴頂/舶來/綺夢"
+    },
+    {
+     "name": "鶴頂紅茶燕麥奶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 60
+      },
+      {
+       "name": "L",
+       "price": 75
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "無咖啡因",
+   "items": [
+    {
+     "name": "883蕎麥茶王",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 35
+      },
+      {
+       "name": "L",
+       "price": 40
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "883蕎麥茶王杏仁凍",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 55
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "883蕎麥茶王那堤",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 55
+      },
+      {
+       "name": "L",
+       "price": 65
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "秘製鮮果茶",
+   "items": [
+    {
+     "name": "荔枝鶴頂紅茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 60
+      },
+      {
+       "name": "L",
+       "price": 70
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "青檸蘭香綠茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "柳丁蘭香綠茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 50
+      },
+      {
+       "name": "L",
+       "price": 60
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    },
+    {
+     "name": "鶴氏姥姥水果茶",
+     "price": null,
+     "sizes": [
+      {
+       "name": "M",
+       "price": 55
+      },
+      {
+       "name": "L",
+       "price": 65
+      }
+     ],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "name": "多多系列",
+   "items": [
+    {
+     "name": "桂花烏龍多多",
+     "price": 55,
+     "sizes": [],
+     "options": [
+      {
+       "name": "加蜂蜜",
+       "price": 10
+      },
+      {
+       "name": "加珍珠",
+       "price": 10
+      },
+      {
+       "name": "加蘆薈",
+       "price": 10
+      },
+      {
+       "name": "加胚芽",
+       "price": 10
+      },
+      {
+       "name": "加鶴頂紅茶凍",
+       "price": 10
+      },
+      {
+       "name": "加桂香烏龍凍",
+       "price": 10
+      },
+      {
+       "name": "加鶴記杏仁凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記芝麻糊凍",
+       "price": 15
+      },
+      {
+       "name": "加鶴記鴛鴦凍（芝麻糊凍+杏仁凍）",
+       "price": 15
+      }
+     ],
+     "note": "僅大杯"
+    }
+   ]
+  }
+ ]
+}

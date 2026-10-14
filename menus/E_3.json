@@ -1,0 +1,229 @@
+{
+  "store": {
+    "name": "新井茶 大墩店",
+    "phone": "04-2327-2325",
+    "address": "台中市南屯區大墩路890號",
+    "hours": "每日 09:45–22:25",
+    "contact": "https://line.me/R/ti/p/@594glomr",
+    "note": "菜單資料來源：Uber Eats 新井茶 台中大墩店頁 https://www.ubereats.com/tw/store/%E6%96%B0%E4%BA%95%E8%8C%B6-%E5%8F%B0%E4%B8%AD%E5%A4%A7%E5%A2%A9%E5%BA%97/7qx9frYnQICPWfbfEHT1sA（2026-10-14 擷取，僅部分品項可見）；分類依品牌菜單分類歸類。價格為外送平台價、多為大杯L(720cc)，門市價通常較低；價格以門市為準"
+  },
+  "categories": [
+    {
+      "name": "喝原味",
+      "items": [
+        {
+          "name": "四季青茶",
+          "price": 40,
+          "sizes": [],
+          "options": [],
+          "note": "大杯"
+        },
+        {
+          "name": "仙草甘茶",
+          "price": 42,
+          "sizes": [],
+          "options": [],
+          "note": "大杯"
+        },
+        {
+          "name": "玄米麥茶",
+          "price": 37,
+          "sizes": [],
+          "options": [],
+          "note": "大杯，無咖啡因"
+        },
+        {
+          "name": "冷泡高山烏龍",
+          "price": 37,
+          "sizes": [],
+          "options": [],
+          "note": "大杯"
+        },
+        {
+          "name": "迷因茶",
+          "price": 38,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "茉香綠茶",
+          "price": 37,
+          "sizes": [],
+          "options": [],
+          "note": "大杯"
+        },
+        {
+          "name": "桂花蜜",
+          "price": 50,
+          "sizes": [],
+          "options": [],
+          "note": "大杯，無咖啡因，甜度固定"
+        },
+        {
+          "name": "桂花青茶",
+          "price": 42,
+          "sizes": [],
+          "options": [],
+          "note": "大杯"
+        },
+        {
+          "name": "話梅綠茶",
+          "price": 50,
+          "sizes": [],
+          "options": [],
+          "note": "大杯"
+        },
+        {
+          "name": "爽味茶",
+          "price": 37,
+          "sizes": [],
+          "options": [],
+          "note": "大杯"
+        }
+      ]
+    },
+    {
+      "name": "鮮奶及茶系列",
+      "items": [
+        {
+          "name": "黑糖珍珠鮮奶",
+          "price": 63,
+          "sizes": [],
+          "options": [],
+          "note": "甜度固定"
+        },
+        {
+          "name": "黑糖鮮奶茶",
+          "price": 56,
+          "sizes": [],
+          "options": [],
+          "note": "甜度固定"
+        },
+        {
+          "name": "黑糖珍珠鮮奶茶",
+          "price": 63,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "珍珠紅茶拿鐵",
+          "price": 59,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "粉Q鮮奶茶",
+          "price": 59,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "粉條鮮奶茶",
+          "price": 59,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "喝滋味",
+      "items": [
+        {
+          "name": "鮮柳橙綠",
+          "price": 62,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "鮮百香綠",
+          "price": 62,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "鮮檸檬綠",
+          "price": 62,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "蘋果綠",
+          "price": 62,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "喝蔗香",
+      "items": [
+        {
+          "name": "甘蔗青茶",
+          "price": 62,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "喝口感",
+      "items": [
+        {
+          "name": "粉Q奶茶",
+          "price": 59,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        },
+        {
+          "name": "粉條奶茶",
+          "price": 59,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "喝新鮮",
+      "items": [
+        {
+          "name": "百香羅勒子",
+          "price": 62,
+          "sizes": [],
+          "options": [],
+          "note": "大杯，無咖啡因"
+        },
+        {
+          "name": "檸檬羅勒子",
+          "price": 62,
+          "sizes": [],
+          "options": [],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "name": "喝冬瓜",
+      "items": [
+        {
+          "name": "冬瓜粉條",
+          "price": 50,
+          "sizes": [],
+          "options": [],
+          "note": "甜度固定"
+        }
+      ]
+    }
+  ]
+}
