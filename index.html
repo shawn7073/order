@@ -224,6 +224,13 @@ function renderMenu() {
   let h = '';
   if (!open) h += `<div class="card"><div class="note">這團${STATUS[v.order.status]}，不能再修改餐點。</div></div>`;
 
+  const last = (v.me.lastItems || []).filter(l => findItem(l.name));
+  if (open && !S.cart.length && last.length) {
+    h += `<div class="card"><h2><span>上次在這家點的</span></h2>
+      <div class="row"><div class="meta">${esc(last.map(l => lineLabel(l) + ' ×' + l.qty).join('、'))}</div>
+      <button class="btn sm" data-act="repeat">跟上次一樣</button></div></div>`;
+  }
+
   if (S.cart.length) {
     h += `<div class="card"><h2><span>我的餐點${S.dirty ? '（尚未送出）' : ''}</span><span class="price">${money(cartTotal())}</span></h2>` +
       S.cart.map((l, i) => `<div class="row">
@@ -357,6 +364,11 @@ function bind() {
     const a = el.dataset.act;
     if (a === 'pick') return openPicker(S.view.store.categories[el.dataset.c].items[el.dataset.i]);
     if (a === 'edit') { const l = S.cart[el.dataset.i]; const it = findItem(l.name); if (it) openPicker(it, Number(el.dataset.i)); return; }
+    if (a === 'repeat') {
+      S.cart = (S.view.me.lastItems || []).filter(l => findItem(l.name))
+        .map(l => ({ name: l.name, size: l.size, options: (l.options || []).slice(), qty: l.qty, note: l.note }));
+      S.dirty = true; render(); toast('已帶入上次的餐點，確認後按「送出餐點」'); return;
+    }
     if (a === 'del') { S.cart.splice(Number(el.dataset.i), 1); S.dirty = true; render(); return; }
     if (a === 'submit') return run(() => api('saveMyEntry', { items: S.cart }), '已送出 ✓', true);
     if (a === 'pay') {
